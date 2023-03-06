@@ -42,3 +42,9 @@ Route::get('/landing', function () {
     return view('public.landing');
 
 });
+
+Route::get('/palette', function () {
+
+    return view('private.palette');
+
+});
