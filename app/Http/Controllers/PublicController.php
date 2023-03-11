@@ -61,3 +61,5 @@ class PublicController extends Controller
         return view('private.editar-acessos');
     }
 }
+
+?>

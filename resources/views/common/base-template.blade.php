@@ -1,8 +1,8 @@
 
-@include('common.cabecalho')
+@include('common.header')
 
 @yield('content')
 
-@include('common.rodape')
+@include('common.footer')
 
 
