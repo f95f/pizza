@@ -13,6 +13,26 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+# Route::get('/pagina', [PublicController::class, 'pagina']);
+
+Route::get('/index', [PublicController::class, 'index']);
+Route::get('/login', [PublicController::class, 'login']);
+Route::get('/pedir', [PublicController::class, 'pedir']);
+Route::get('/sobre', [PublicController::class, 'sobre']);
+Route::get('/contato', [PublicController::class, 'contato']);
+Route::get('/cardapio', [PublicController::class, 'cardapio']);
+
+/*
+    - Páginas internas -
+
+Route::get('/painel', [PublicController::class, 'painel']);
+Route::get('/autenticar', [PublicController::class, 'autenticar']);
+Route::get('/editar-item', [PublicController::class, 'editar-item']);
+Route::get('/cadastrar-item', [PublicController::class, 'cadastrar-item']);
+Route::get('/editar-acessos', [PublicController::class, 'editar-acessos']);
+
+*/
+
 Route::get('/', function () {
     return view('home');
 });
