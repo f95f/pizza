@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class PublicController extends Controller
-{
+class PublicController extends Controller{
+
     public function index(){
         
         return view('public.index');
@@ -61,5 +61,4 @@ class PublicController extends Controller
         return view('private.editar-acessos');
     }
 }
-
-?>
+    

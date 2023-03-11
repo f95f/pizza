@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PublicController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,7 +22,7 @@ Route::get('/pedir', [PublicController::class, 'pedir']);
 Route::get('/sobre', [PublicController::class, 'sobre']);
 Route::get('/contato', [PublicController::class, 'contato']);
 Route::get('/cardapio', [PublicController::class, 'cardapio']);
-
+                         
 /*
     - Páginas internas -
 
@@ -33,4 +34,3 @@ Route::get('/editar-acessos', [PublicController::class, 'editar-acessos']);
 
 */
 
-?>
