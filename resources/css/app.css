@@ -1,0 +1,39 @@
+@font-face{
+    font-family: Open-Sans;
+    src: "../fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf";
+}
+
+@font-face{
+    font-family: PT-Sans-Narrow;
+    src: "../fonts/PT_Sans_Narrow/PTSansNarrow-Regular.ttf";
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: PT-Sans-Narrow;
+    src: "../fonts/PT_Sans_Narrow/PTSansNarrow-Bold.ttf";
+    font-weight: bold;
+}
+
+:root{
+    --DARK: #1A100E;
+    --GREENISH: #3B4D25;
+    --ORANGISH: #C14325; 
+    --YELLOWISH: #F39220; 
+    --WHITE: #F2F2F4; 
+}
+
+.navbar{
+    background-color: var(--DARK);
+}
+
+.nav-item{
+    margin: 40px 15px;
+
+    color: var(--WHITE);
+    font-family: PT-Sans-Narrow, sans-serif;
+    font-weight: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+

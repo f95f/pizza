@@ -1,4 +1,8 @@
 @extends('common.base-template')
 @section('content')
-<h1>AAAA</h1>
+
+@component('components.header')
+@endcomponent
+
+aaa
 

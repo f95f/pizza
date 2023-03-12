@@ -14,8 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-# Route::get('/pagina', [PublicController::class, 'pagina']);
-
 Route::get('/index', [PublicController::class, 'index']);
 Route::get('/login', [PublicController::class, 'login']);
 Route::get('/pedir', [PublicController::class, 'pedir']);

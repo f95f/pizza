@@ -8,33 +8,36 @@ class PublicController extends Controller{
 
     public function index(){
         
-        return view('public.index');
+        return view('public.index', ['pageTitle' => 'Página Inicial']);
     }
 
     public function login(){
 
-        return view('public.login');
+        return view('public.login', ['pageTitle' => 'Entrar']);
     }
 
     public function pedir(){
         
-        return view('public.pedir');
+        return view('public.pedir', ['pageTitle' => 'Faça seu pedido!']);
     }
 
     public function sobre(){
         
-        return view('public.sobre');
+        return view('public.sobre', ['pageTitle' => 'Sobre']);
     }
 
     public function contato(){
         
-        return view('public.contato');
+        return view('public.contato', ['pageTitle' => 'Contato']);
     }
 
     public function cardapio(){
         
-        return view('public.cardapio');
+        return view('public.cardapio', ['pageTitle' => 'Cardápio']);
     }
+    
+    /*
+        - Funções para páginas internas -
     
     public function painel(){
     
@@ -60,5 +63,7 @@ class PublicController extends Controller{
     
         return view('private.editar-acessos');
     }
+
+    */
 }
     
