@@ -4,7 +4,7 @@
         <nav class="navbar navbar-expand-md fixed-top scrolling-navbar">
             <div class="container">
                 <a class="navbar-brand" href="index">
-                    <img src="../../media/logo.png" alt="Logo - Vera Napoli" height = "80">
+                    <img src="../../media/logo.png" alt="Logo - Vera Napoli" height = "60">
                     <span class="sr-only">(current)</span><!-- sr-only: texto somente disponível para leitores de tela, não fica visível -->
                 </a>
 

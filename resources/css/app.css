@@ -26,9 +26,17 @@
 .navbar{
     background-color: var(--DARK);
 }
+.navbar.scrolling-navbar {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
+.navbar-toggler-icon{
+    outline: 2px solid lime;
+    background-color: var(--WHITE);
+}
 .nav-item{
-    margin: 40px 15px;
+    margin: 10px 15px; 
 
     font-family: PT-Sans-Narrow, sans-serif;
     font-weight: normal;
@@ -41,4 +49,50 @@
 }
 .nav-link:hover{
     color: var(--YELLOWISH);
+}
+
+.parallax-bg{
+    background-image: url('../media/back_img_1H.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    font-family: PT-Sans-Narrow, sans-serif;
+    color: var(--WHITE);
+}
+
+h5{
+    font-family: Open-Sans, sans-serif;
+    color: var(--WHITE);
+}
+
+.glass{
+    -moz-background-color: var(--GREENISH);
+    background-color: #11111133;
+    -moz-opacity: .2;
+    opacity: 1;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+}
+.btn-neutro{
+    background-color: var(--WHITE);
+    color: var(--ORANGISH);
+    transition: all .2s;
+}
+
+.btn-neutro:hover, .btn-destaque:hover{
+    background-color: var(--ORANGISH);
+    color: var(--WHITE) !important;
+}
+
+.btn-destaque{
+    font-family: PT-Sans-Narrow, sans-serif;
+    
+    text-transform: uppercase;
+    background-color: var(--YELLOWISH);
+    color: var(--WHITE) !important;
+    transition: all .2s;
 }
