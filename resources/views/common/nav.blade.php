@@ -1,7 +1,7 @@
 <header>
     <div class="a" style="height: 2000px; width: 2px; background-color: red;"></div>
 
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top scrolling-navbar">
+        <nav class="navbar navbar-expand-md fixed-top scrolling-navbar">
             <div class="container">
                 <a class="navbar-brand" href="index">
                     <img src="../../media/logo.png" alt="Logo - Vera Napoli" height = "80">
