@@ -14,7 +14,7 @@ class PublicController extends Controller{
 
     public function login(){
 
-        return view('public.login_cliente', ['pageTitle' => 'Entrar']);
+        return view('forms.login_cliente', ['pageTitle' => 'Entrar']);
     }
 
     public function signUp(){

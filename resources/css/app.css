@@ -67,6 +67,7 @@ h1{
 h5{
     font-family: Open-Sans, sans-serif;
     color: var(--WHITE);
+    letter-spacing: 3px;
 }
 
 .glass{

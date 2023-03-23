@@ -1,6 +1,5 @@
 <header>
-    <div class="a" style="height: 2000px; width: 2px; background-color: red;"></div>
-
+    
         <nav class="navbar navbar-expand-md fixed-top scrolling-navbar">
             <div class="container">
                 <a class="navbar-brand" href="index">

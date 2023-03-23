@@ -14,4 +14,4 @@ class LoginModel extends Model{
         
     }
 
-}
+}   
