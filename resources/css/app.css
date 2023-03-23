@@ -97,3 +97,11 @@ h5{
     color: var(--WHITE) !important;
     transition: all .2s;
 }
+
+
+i{
+    background-color: red;
+}
+
+footer{
+}

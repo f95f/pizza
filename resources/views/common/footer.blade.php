@@ -1,65 +1,43 @@
 <footer class="page-footer font-small unique-color-dark">
 
-<div style="background-color: #6351ce;">
-  <div class="container">
-
-    <!-- Grid row-->
+<div style="background-color: var(--DARK);">
+  <div class="container"> <!-- rodapé - redes sociais -->
     <div class="row py-4 d-flex align-items-center">
 
-      <!-- Grid column -->
-      <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-        <h6 class="mb-0">Get connected with us on social networks!</h6>
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+            <h6 class="mb-0">Nos encontre nas redes sociais!</h6>
+        </div>
+
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+            <a class="fb-ic">
+                <i class="fab fa-facebook-f white-text mr-4"> </i>
+            </a>
+            <a class="ins-ic">
+                <i class="fab fa-instagram white-text mr-4"> </i>
+            </a>
+            <a class="tw-ic">
+                <i class="fab fa-twitter white-text mr-4"> </i>
+            </a>
+            <a class="gplus-ic">
+                <i class="fab fa-youtube white-text mr-4"> </i>
+            </a>
+            <a class="li-ic">
+                <i class="fab fa-linkedin-in white-text"> </i>
+            </a>
       </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-6 col-lg-7 text-center text-md-right">
-
-        <!-- Facebook -->
-        <a class="fb-ic">
-          <i class="fab fa-facebook-f white-text mr-4"> </i>
-        </a>
-        <!-- Twitter -->
-        <a class="tw-ic">
-          <i class="fab fa-twitter white-text mr-4"> </i>
-        </a>
-        <!-- Google +-->
-        <a class="gplus-ic">
-          <i class="fab fa-google-plus-g white-text mr-4"> </i>
-        </a>
-        <!--Linkedin -->
-        <a class="li-ic">
-          <i class="fab fa-linkedin-in white-text mr-4"> </i>
-        </a>
-        <!--Instagram-->
-        <a class="ins-ic">
-          <i class="fab fa-instagram white-text"> </i>
-        </a>
-
-      </div>
-      <!-- Grid column -->
 
     </div>
-    <!-- Grid row-->
-
   </div>
 </div>
 
-<!-- Footer Links -->
-<div class="container text-center text-md-left mt-5">
+<div class="container text-center text-md-left mt-5"> <!-- rodapé - sitemap -->
 
-  <!-- Grid row -->
   <div class="row mt-3">
 
-    <!-- Grid column -->
     <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
-      <!-- Content -->
-      <h6 class="text-uppercase font-weight-bold">Company name</h6>
-      <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-      <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-        consectetur
-        adipisicing elit.</p>
+        <img src="../../media/logo.png" alt="Logo Grande - Vera Napoli" height = "120">
 
     </div>
     <!-- Grid column -->
