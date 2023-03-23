@@ -91,7 +91,7 @@
 
     </div>
 
-    <div class="footer-copyright text-center py-3" style="background-color: var(--DARK);">© 2023 Copyright:
+    <div class="footer-copyright text-center py-3" style = " background-color: var(--DARK)">© 2023 Copyright:
         <a href=""> GU3026965 @ IFSP Guarulhos</a>
     </div>
 
