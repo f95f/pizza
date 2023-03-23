@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\LoginModel;
 
 class PublicController extends Controller{
 
@@ -13,9 +14,14 @@ class PublicController extends Controller{
 
     public function login(){
 
-        return view('public.login', ['pageTitle' => 'Entrar']);
+        return view('public.login_cliente', ['pageTitle' => 'Entrar']);
     }
 
+    public function signUp(){
+
+        return view('forms.signup_cliente', ['pageTitle' => 'Cadastre-se!']);
+    }
+    
     public function pedir(){
         
         return view('public.pedir', ['pageTitle' => 'Faça seu pedido!']);
@@ -36,6 +42,18 @@ class PublicController extends Controller{
         return view('public.cardapio', ['pageTitle' => 'Cardápio']);
     }
     
+    public function save(Request $request){
+        
+        $data = $request -> input();
+
+        $model = new LoginModel();
+        $v = $model -> signUserIn($data); // $v: vetor processado
+        
+        #print_r($v);
+        return view('public.sign_success', ['info' => $v]);
+
+    }
+
     /*
         - Funções para páginas internas -
     
