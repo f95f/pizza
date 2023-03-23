@@ -32,8 +32,6 @@
 }
 
 .navbar-toggler-icon{
-    outline: 2px solid lime;
-    background-color: var(--WHITE);
 }
 .nav-item{
     margin: 10px 15px; 
@@ -98,10 +96,12 @@ h5{
     transition: all .2s;
 }
 
-
-i{
-    background-color: red;
+footer{
+    background-image: url("../media/textura_1.png");
+    background-repeat: repeat;
+    background-size: 150px;
 }
 
-footer{
+footer hr{
+    background-color: var(--YELLOWISH);
 }
