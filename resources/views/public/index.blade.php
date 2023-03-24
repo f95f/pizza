@@ -29,8 +29,21 @@
 
 
 </div>
-;<div class="container">
+<div class="container">
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, libero quo cumque ea tempora quia enim mollitia quidem pariatur maiores vero voluptatibus optio! Assumenda quae ad accusantium quos ipsa nesciunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic omnis blanditiis consectetur commodi asperiores! Nemo maiores debitis saepe facilis, doloribus qui cupiditate recusandae odit omnis repellendus dolore doloremque consequuntur consequatur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, placeat numquam aliquid doloremque tempora quidem saepe molestiae eligendi blanditiis aspernatur vero dolor mollitia dignissimos error, quisquam neque ut quod. Accusamus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat molestias quaerat minus voluptates aperiam natus eos quos ducimus pariatur laboriosam iusto, ipsa quo? Amet dolore minima suscipit iste molestiae adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores mollitia qui in nobis maxime illum esse aliquid, eius officia facere dolor? Doloribus, aliquid! Similique, voluptatem id. Molestias vel sapiente tempore.</p>
 
 </div>
-<div class="row mb-5 indigo"></div>
+
+<hr>
+
+<div class="container">
+
+<!-- textura parallax -->
+<h2>Do tamanho da sua fome!</h2>
+    <p>fatia</p>
+    <p>mini-pizza</p>
+    <p>completa</p>
+    <p>família</p>
+</div>
+
+<hr>

@@ -113,11 +113,11 @@ footer a:hover{
     color: var(--YELLOWISH);
     border-bottom: 1px solid var(--YELLOWISH);
 }
-
+/* 
 #logo-footer{
     padding: 0;
     background-image: url("../media/logo_grande_branco.png");    
     background-repeat: no-repeat;
     background-size: contain;
     height: 190px;
-}
+} */
