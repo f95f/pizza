@@ -47,3 +47,10 @@
 </div>
 
 <hr>
+
+<h2>Lorem ipsum dolor sit amet!</h2>
+    <p>Tradicionais</p>
+    <p>Especiais</p>
+    <p>Internacionais</p>
+    <p>Bebidas</p>
+<hr>

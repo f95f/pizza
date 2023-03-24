@@ -36,7 +36,7 @@
         <div class="row mt-3">
 
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto">
-                <img src="resources/media/logo_grande_branco.png" alt="Logo Grande - Vera Napoli" height = "220"> 
+                <img src="{{asset('resources/media/logo_grande_branco.png')}}" alt="Logo Grande - Vera Napoli" height = "220"> 
             </div>
 
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">

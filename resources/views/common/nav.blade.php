@@ -3,7 +3,7 @@
         <nav class="navbar navbar-expand-md fixed-top scrolling-navbar">
             <div class="container">
                 <a class="navbar-brand" href="index">
-                    <img src="resources/media/logomarca_branco.png" alt="Logo - Vera Napoli" height = "60">
+                    <img src="{{asset('resources/media/logomarca_branco.png')}}" alt="Logo - Vera Napoli" height = "60">
                     <span class="sr-only">(current)</span><!-- sr-only: texto somente disponível para leitores de tela, não fica visível -->
                 </a>
 
