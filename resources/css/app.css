@@ -17,6 +17,7 @@
 
 :root{
     --DARK: #1A100E;
+    --DARKER: #050303;
     --GREENISH: #3B4D25;
     --ORANGISH: #C14325; 
     --YELLOWISH: #F39220; 
@@ -47,6 +48,7 @@
 }
 .nav-link:hover{
     color: var(--YELLOWISH);
+    border-bottom: 1px solid var(--YELLOWISH);
 }
 
 .parallax-bg{
@@ -57,7 +59,7 @@
     background-size: cover;
 }
 
-h1{
+h1, h6{
     font-family: PT-Sans-Narrow, sans-serif;
     color: var(--WHITE);
 }
@@ -98,7 +100,7 @@ h5{
 
 footer{
     background-image: url("../media/textura_1.png");
-    background-color: var(--DARK);
+    background-color: var(--DARKER);
     background-repeat: repeat;
     background-size: 180px;
 }
@@ -108,5 +110,14 @@ footer hr{
 }
 
 footer a:hover{
+    color: var(--YELLOWISH);
     border-bottom: 1px solid var(--YELLOWISH);
+}
+
+#logo-footer{
+    padding: 0;
+    background-image: url("../media/logo_grande_branco.png");    
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 190px;
 }

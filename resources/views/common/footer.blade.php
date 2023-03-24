@@ -36,39 +36,40 @@
         <div class="row mt-3">
 
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <img id="logo-footer" alt="Logo Grande - Vera Napoli" height = "160"> 
+            </div>
 
-                <img src="../../media/logo.png" alt="Logo Grande - Vera Napoli" height = "120"></div>
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
-                    <h6 class="text-uppercase font-weight-bold">Links Úteis</h6>
-                    <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 100px;">
-                    <p>
-                    <a href="#!">Pedir  </a>
-                    </p>
-                    <p>
-                    <a href="#!">Cardápio</a>
-                    </p>
-                    <p>
-                    <a href="#!">Cadastre-se</a>
-                    </p>
-                    <p>
-                    <a href="#!">Entrar</a>
-                    </p>
+                <h6 class="text-uppercase">Menu</h6>
+                <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 80px">
+                <p>
+                    <a href="pedir">Pedir</a>
+                </p>
+                <p>
+                    <a href="cardapio">Cardápio</a>
+                </p>
+                <p>
+                    <a href="signUp">Cadastre-se</a>
+                </p>
+                <p>
+                    <a href="login">Entrar</a>
+                </p>
                 
             </div>
             
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 
-                <h6 class="text-uppercase font-weight-bold">Sobre Nós</h6>
+                <h6 class="text-uppercase">Sobre Nós</h6>
                 <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 100px;">
                 <p>
-                    <a href="#!">A Vera Napoli</a>
+                    <a href="sobre">A Vera Napoli</a>
                 </p>
                 <p>
-                    <a href="#!">Contatos</a>
+                    <a href="contato">Contatos</a>
                 </p>
                 <p>
-                    <a href="#!">Trabalhe Conosco</a>
+                    <a href="trabalheConosco">Trabalhe Conosco</a>
                 </p>
                 <p>
                     <a href="#!">Área Restrita</a>
@@ -78,7 +79,7 @@
     
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
-                <h6 class="text-uppercase font-weight-bold">Horários</h6>
+                <h6 class="text-uppercase">Horários</h6>
                 <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 100px;">
                 <p>Ter - Qui: 18h às 23h</p>
                 <p>Sex - Sab: 14h às 00h</p>

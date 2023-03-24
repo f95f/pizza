@@ -42,6 +42,11 @@ class PublicController extends Controller{
         return view('public.cardapio', ['pageTitle' => 'Cardápio']);
     }
     
+    public function trabalheConosco(){
+        
+        return view('forms.trabalhe_conosco', ['pageTitle' => 'Junte-se a nós!']);
+    }
+
     public function save(Request $request){
         
         $data = $request -> input();
