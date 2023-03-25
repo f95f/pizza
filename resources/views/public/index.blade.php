@@ -36,15 +36,49 @@
 
 <hr>
 
-<div class="container">
+                        <!-- textura parallax -->
+<div class = "container-fluid">
 
-<!-- textura parallax -->
-<h2>Do tamanho da sua fome!</h2>
-    <p>fatia</p>
-    <p>mini-pizza</p>
-    <p>completa</p>
-    <p>família</p>
+    <div class="row" style = "background-color: var(--YELLOWISH)">
+        
+        <div class = "col mx-auto py-4">
+            <h2 class = "text-center">Do tamanho da sua fome!</h2>
+        </div>
+
+    </div>
+    <div class="row px-3 py-3" style = "background-color: var(--DARK)">
+
+        <div class="col-md-3 mx-auto align-items-center">
+            <h4 class="font-weight-bold my-4">Fatias</h4>
+            <img class = "mx-auto icons-tamanhos  mx-auto my-3" src="{{asset('resources/media/icons/pizza_fatia.svg')}}" alt="Fatias de pizza">
+            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+        </div>
+        
+        <div class="col-md-3 mx-auto ">
+            <h4 class="font-weight-bold my-4">Mini-pizzas</h4>
+            <img class = "icons-tamanhos mx-auto my-3" src="{{asset('resources/media/icons/pizza_mini.svg')}}" alt="Mini pizza">
+            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+        </div>
+    
+    </div>
+
+    <div class="row px-3 py-3" style = "background-color: var(--DARK)">
+    
+        <div class="col-md-3 mx-auto ">
+            <h4 class="font-weight-bold my-4">Tradicionais</h4>
+            <img class = "icons-tamanhos" src="{{asset('resources/media/icons/pizza_trad.svg')}}" alt="pizzas tradicionais">
+            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+        </div>
+        
+        <div class="col-md-3 mx-auto ">
+            <h4 class="font-weight-bold my-4">Família</h4>
+            <img class = "icons-tamanhos" src="{{asset('resources/media/icons/pizza_familia.svg')}}" alt="Pizza tamanho família">
+            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+        </div>
+    </div>
+        
 </div>
+        
 
 <hr>
 
