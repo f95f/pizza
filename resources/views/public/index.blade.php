@@ -36,8 +36,7 @@
 
 <hr>
 
-                        <!-- textura parallax -->
-<div class = "container-fluid">
+<div class = "container-fluid fundo-textura-parallax">
 
     <div class="row" style = "background-color: var(--YELLOWISH)">
         
@@ -46,35 +45,40 @@
         </div>
 
     </div>
-    <div class="row px-3 py-3" style = "background-color: var(--DARK)">
+    <div class="row px-5 py-3 mask pattern-8">
 
-        <div class="col-md-3 mx-auto align-items-center">
-            <h4 class="font-weight-bold my-4">Fatias</h4>
-            <img class = "mx-auto icons-tamanhos  mx-auto my-3" src="{{asset('resources/media/icons/pizza_fatia.svg')}}" alt="Fatias de pizza">
-            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
-        </div>
+        @component('components.pizza-tamanhos',[
+            'titulo' => 'Fatias',
+            'icone' => 'pizza_fatia',
+            'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+        ])
+        @endcomponent
+
+        @component('components.pizza-tamanhos',[
+            'titulo' => 'Mini-pizzas',
+            'icone' => 'pizza_mini',
+            'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+        ])
+        @endcomponent
         
-        <div class="col-md-3 mx-auto ">
-            <h4 class="font-weight-bold my-4">Mini-pizzas</h4>
-            <img class = "icons-tamanhos mx-auto my-3" src="{{asset('resources/media/icons/pizza_mini.svg')}}" alt="Mini pizza">
-            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
-        </div>
-    
     </div>
 
-    <div class="row px-3 py-3" style = "background-color: var(--DARK)">
+    <div class="row px-5 py-3 mask pattern-8">
     
-        <div class="col-md-3 mx-auto ">
-            <h4 class="font-weight-bold my-4">Tradicionais</h4>
-            <img class = "icons-tamanhos" src="{{asset('resources/media/icons/pizza_trad.svg')}}" alt="pizzas tradicionais">
-            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
-        </div>
+    @component('components.pizza-tamanhos',[
+            'titulo' => 'Tradicionais',
+            'icone' => 'pizza_trad',
+            'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+        ])
+        @endcomponent
+
+        @component('components.pizza-tamanhos',[
+            'titulo' => 'Família',
+            'icone' => 'pizza_familia',
+            'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+        ])
+        @endcomponent
         
-        <div class="col-md-3 mx-auto ">
-            <h4 class="font-weight-bold my-4">Família</h4>
-            <img class = "icons-tamanhos" src="{{asset('resources/media/icons/pizza_familia.svg')}}" alt="Pizza tamanho família">
-            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
-        </div>
     </div>
         
 </div>
