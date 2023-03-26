@@ -30,7 +30,7 @@
     ])
     @endcomponent
     
-    <div class="row fluid py-5 mask pattern-8">
+    <div class="row fluid py-5">
 
         @component('components.pizza-tamanhos',[
             'titulo' => 'Fatias',
@@ -60,6 +60,26 @@
         ])
         @endcomponent
 
+        @component('components.pizza-tamanhos',[
+            'titulo' => 'Tradicionais',
+            'icone' => 'pizza_trad',
+            'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+        ])
+        @endcomponent
+
+        @component('components.pizza-tamanhos',[
+            'titulo' => 'Família',
+            'icone' => 'pizza_familia',
+            'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+        ])
+        @endcomponent
+
+        @component('components.pizza-tamanhos',[
+            'titulo' => 'Família',
+            'icone' => 'pizza_familia',
+            'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+        ])
+        @endcomponent
     </div>
  
         
@@ -76,20 +96,20 @@
     <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 
           <!--Controls-->
-        <div class="controls-top">
-            <a class="btn-floating primary-color waves-effect waves-light" href="#multi-item-example" data-slide="prev">
+        <div class="controls-top mb-2">
+            <a class="btn-floating waves-effect waves-light mt-5" style = "background-color: var(--ORANGISH)" href="#multi-item-example" data-slide="prev">
                 <i class="fas fa-chevron-left"></i>
             </a>
-            <a class="btn-floating primary-color waves-effect waves-light" href="#multi-item-example" data-slide="next">
+            <a class="btn-floating waves-effect waves-light mt-5" style = "background-color: var(--ORANGISH)" href="#multi-item-example" data-slide="next">
                 <i class="fas fa-chevron-right"></i>
             </a>
         </div>
         
         <ol class="carousel-indicators">
-            <li class="primary-color" data-target="#multi-item-example" data-slide-to="0"></li>
-            <li class="primary-color active" data-target="#multi-item-example" data-slide-to="1"></li>
-            <li class="primary-color" data-target="#multi-item-example" data-slide-to="2"></li>
-            <li class="primary-color" data-target="#multi-item-example" data-slide-to="3"></li>
+            <li data-target="#multi-item-example" data-slide-to="0"style = "background-color: var(--ORANGISH)" ></li>
+            <li class="active" data-target="#multi-item-example" data-slide-to="1"style = "background-color: var(--ORANGISH)" ></li>
+            <li data-target="#multi-item-example" data-slide-to="2"style = "background-color: var(--ORANGISH)" ></li>
+            <li data-target="#multi-item-example" data-slide-to="3"style = "background-color: var(--ORANGISH)" ></li>
         </ol>
 
         <div class="carousel-inner" role="listbox">

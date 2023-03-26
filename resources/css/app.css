@@ -151,6 +151,11 @@ h5{
     color: var(--WHITE) !important;
 }
 
+.card-cascade{
+    background-image: linear-gradient(to bottom, var(--DARK), var(--WHITE));
+    border-radius: 0;
+}
+
 .tamanhos{
     height: 100px;
     width: 80px;
