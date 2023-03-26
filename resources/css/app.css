@@ -17,6 +17,7 @@
 
 :root{
     --DARK: #1A100E;
+    --CLEAR: #e5c6c0;
     --DARKER: #050303;
     --GREENISH: #3B4D25;
     --ORANGISH: #C14325; 
@@ -117,6 +118,14 @@ h5{
     font-family: Open-Sans, sans-serif;
     color: var(--WHITE);
     letter-spacing: 3px;
+}
+
+a{
+    color: var(--YELLOWISH);
+}
+a:hover{
+    color: var(--ORANGISH);
+    text-decoration: inline;
 }
 
 .glass{

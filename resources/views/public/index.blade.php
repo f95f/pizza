@@ -11,13 +11,47 @@
         'texto' => 'O que todo mundo ama!'
     ])
     @endcomponent
-    
-    <div class="row py-5">
-        <p>
-            
-        </p>
-    </div>
+    <div class="container py-5">
 
+        <section class="row text-center wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-name: fadeIn; animation-iteration-count: 1; animation-delay: 0.3s;">
+
+            <p class="text-left my-5 mx-auto w-responsive lead" style = "color: var(--CLEAR)">
+                Trabalhamos com a tradição que remete ao nosso nome, junto à modernidade presente em nossa história, para entregar os seus sabores favoritos com a melhor qualidade e proporcionando sempre a melhor experiência!
+            </p>
+
+            <div class="row mt-5">
+
+                @component('components.card-sobre', [
+                    'icon' => 'hand-holding-heart',
+                    'titulo' => 'O melhor do Artesanal',
+                    'texto' => 'Trabalhamos com ingredientes naturais e sem aditivos ou conservantes.',
+                    'pagina' => 'sobre',
+                    'pagina_texto' => 'Saiba Mais'
+                ])
+                @endcomponent
+
+                @component('components.card-sobre', [
+                    'icon' => 'certificate',
+                    'titulo' => 'Sabores Exclusivos',
+                    'texto' => 'Dezenas de opções - de pizzas tradicionais à combinações que você só encontra aqui.',
+                    'pagina' => 'cardapio',
+                    'pagina_texto' => 'Cardápio'
+                ])
+                @endcomponent
+
+                @component('components.card-sobre', [
+                    'icon' => 'phone',
+                    'titulo' => 'Peça como preferir',
+                    'texto' => 'Cadastre-se e peça facilmente pelo site, ou utilize nossos canais de atendimento.',
+                    'pagina' => 'pedir',
+                    'pagina_texto' => 'Pedir!'
+                ])
+                @endcomponent
+
+            </div>
+
+        </section>
+    </div>
 </div>
   
 <hr>

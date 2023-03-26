@@ -11,6 +11,9 @@
                 <div class="col-md-6 col-lg-7 text-center text-md-right footer-icons">
 
                     <a class="fb-ic">
+                        <i class="fab fa-whatsapp white-text mr-4"> </i>
+                    </a>
+                    <a class="fb-ic">
                         <i class="fab fa-facebook-f white-text mr-4"> </i>
                     </a>
                     <a class="fb-ic">
