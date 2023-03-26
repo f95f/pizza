@@ -2,7 +2,7 @@
 
     <div style="background-color: var(--DARK);"><!-- rodapé - redes sociais -->
         <div class="container"> 
-            <div class="row py-4 d-flex mb-1 align-items-center">
+            <div class="row py-4 d-flex mb-1 align-items-center z-depth-1-half">
 
                 <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
                     <h6 class="mb-0">Nos encontre nas redes sociais!</h6>
