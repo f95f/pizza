@@ -125,7 +125,6 @@ a{
 }
 a:hover{
     color: var(--ORANGISH);
-    text-decoration: inline;
 }
 
 .glass{
@@ -170,7 +169,7 @@ a:hover{
     width: 80px;
 }
 
-v{
+.fundo-textura-parallax{
     background-color: var(--DARK);
     background-image: url("../media/textura_1.png");
     background-attachment: fixed;

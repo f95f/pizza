@@ -12,7 +12,7 @@
     ])
     @endcomponent
     
-    <div class="container py-5">
+    <div class="container pl-4 py-5">
 
         <section class="row text-center wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-name: fadeIn; animation-iteration-count: 1; animation-delay: 0.3s;">
 
@@ -63,7 +63,7 @@
         @endcomponent
         
     <div class="w-100 fundo-textura-parallax">
-        <div class="container">
+        <div class="container mx-auto">
             <div class="row py-5">
 
                 @component('components.pizza-tamanhos',[
