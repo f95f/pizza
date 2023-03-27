@@ -4,19 +4,22 @@
 @component('components.banner');
 @endcomponent
 
-<div class="container-fluid">
+<div class="container-fluid px-0">
 
     @component('components.faixa',[
         'fundo' => '--ORANGISH',
         'texto' => 'O que todo mundo ama!'
     ])
     @endcomponent
+    
     <div class="container py-5">
 
         <section class="row text-center wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-name: fadeIn; animation-iteration-count: 1; animation-delay: 0.3s;">
 
-            <p class="text-left my-5 mx-auto w-responsive lead" style = "color: var(--CLEAR)">
+            <p class="text-center w-100 my-5 mx-auto w-responsive lead text-shadow-2" style = "color: var(--CLEAR)">
+
                 Trabalhamos com a tradição que remete ao nosso nome, junto à modernidade presente em nossa história, para entregar os seus sabores favoritos com a melhor qualidade e proporcionando sempre a melhor experiência!
+
             </p>
 
             <div class="row mt-5">
@@ -24,14 +27,14 @@
                 @component('components.card-sobre', [
                     'icon' => 'hand-holding-heart',
                     'titulo' => 'O melhor do Artesanal',
-                    'texto' => 'Trabalhamos com ingredientes naturais e sem aditivos ou conservantes.',
+                    'texto' => 'Selecionamos somente ingredientes naturais e sem aditivos ou conservantes.',
                     'pagina' => 'sobre',
                     'pagina_texto' => 'Saiba Mais'
                 ])
                 @endcomponent
 
                 @component('components.card-sobre', [
-                    'icon' => 'certificate',
+                    'icon' => 'star',
                     'titulo' => 'Sabores Exclusivos',
                     'texto' => 'Dezenas de opções - de pizzas tradicionais à combinações que você só encontra aqui.',
                     'pagina' => 'cardapio',
@@ -52,74 +55,75 @@
 
         </section>
     </div>
-</div>
-  
-<hr>
-
-<div class = "container-fluid fundo-textura-parallax">
 
     @component('components.faixa', [
         'fundo' => '--YELLOWISH',
         'texto' => 'Do tamanho da sua fome!'
-    ])
-    @endcomponent
-    
-    <div class="row fluid py-5">
-
-        @component('components.pizza-tamanhos',[
-            'titulo' => 'Fatias',
-            'icone' => 'pizza_fatia',
-            'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-        ])
-        @endcomponent
-
-        @component('components.pizza-tamanhos',[
-            'titulo' => 'Mini-pizzas',
-            'icone' => 'pizza_mini',
-            'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
         ])
         @endcomponent
         
-        @component('components.pizza-tamanhos',[
-            'titulo' => 'Tradicionais',
-            'icone' => 'pizza_trad',
-            'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-        ])
-        @endcomponent
+    <div class="w-100 fundo-textura-parallax">
+        <div class="container">
+            <div class="row py-5">
 
-        @component('components.pizza-tamanhos',[
-            'titulo' => 'Família',
-            'icone' => 'pizza_familia',
-            'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-        ])
-        @endcomponent
+                @component('components.pizza-tamanhos',[
+                    'titulo' => 'Fatias',
+                    'icone' => 'pizza_fatia',
+                    'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                ])
+                @endcomponent
 
-        @component('components.pizza-tamanhos',[
-            'titulo' => 'Tradicionais',
-            'icone' => 'pizza_trad',
-            'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-        ])
-        @endcomponent
+                @component('components.pizza-tamanhos',[
+                    'titulo' => 'Mini-pizzas',
+                    'icone' => 'pizza_mini',
+                    'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                ])
+                @endcomponent
+                
+                @component('components.pizza-tamanhos',[
+                    'titulo' => 'Tradicionais',
+                    'icone' => 'pizza_trad',
+                    'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                ])
+                @endcomponent
 
-        @component('components.pizza-tamanhos',[
-            'titulo' => 'Família',
-            'icone' => 'pizza_familia',
-            'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-        ])
-        @endcomponent
+            </div>
+            <div class="row py-5">
 
-        @component('components.pizza-tamanhos',[
-            'titulo' => 'Família',
-            'icone' => 'pizza_familia',
-            'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-        ])
-        @endcomponent
+                @component('components.pizza-tamanhos',[
+                    'titulo' => 'Família',
+                    'icone' => 'pizza_familia',
+                    'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                ])
+                @endcomponent
+
+                @component('components.pizza-tamanhos',[
+                    'titulo' => 'Tradicionais',
+                    'icone' => 'pizza_trad',
+                    'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                ])
+                @endcomponent
+
+                @component('components.pizza-tamanhos',[
+                    'titulo' => 'Família',
+                    'icone' => 'pizza_familia',
+                    'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                ])
+                @endcomponent
+
+            </div>
+            <div class="row py-5">
+
+                @component('components.pizza-tamanhos',[
+                    'titulo' => 'Família',
+                    'icone' => 'pizza_familia',
+                    'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                ])
+                @endcomponent
+
+            </div>
+        </div>
     </div>
- 
-        
-</div>
-        
-<div class="container-fluid">
 
     @component('components.faixa',[
         'fundo' => '--GREENISH',

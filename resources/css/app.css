@@ -17,7 +17,7 @@
 
 :root{
     --DARK: #1A100E;
-    --CLEAR: #e5c6c0;
+    --CLEAR: #e0d0cd;
     --DARKER: #050303;
     --GREENISH: #3B4D25;
     --ORANGISH: #C14325; 
@@ -170,7 +170,7 @@ a:hover{
     width: 80px;
 }
 
-.fundo-textura-parallax{
+v{
     background-color: var(--DARK);
     background-image: url("../media/textura_1.png");
     background-attachment: fixed;

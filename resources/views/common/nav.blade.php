@@ -1,6 +1,6 @@
 <header>
     
-        <nav class="navbar navbar-expand-md fixed-top scrolling-navbar">
+        <nav class="navbar navbar-expand-md px-0 fixed-top scrolling-navbar">
             <div class="container">
                 <a class="navbar-brand" href="index">
                     <img src="{{asset('resources/media/logomarca_branco.png')}}" alt="Logo - Vera Napoli" height = "60">
