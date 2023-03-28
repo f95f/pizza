@@ -74,7 +74,7 @@
                     <a href="sobre">A Vera Napoli</a>
                 </p>
                 <p>
-                    <a href="contato">Contatos</a>
+                    <a href="contato">Contato</a>
                 </p>
                 <p>
                     <a href="trabalheConosco">Trabalhe Conosco</a>

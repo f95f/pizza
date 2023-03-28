@@ -212,3 +212,21 @@ form input:focus, textarea:focus{
     border-bottom: 2px solid var(--YELLOWISH)!important;
     outline: 0 !important;
 }
+
+#txtPesquisar{
+    background-color: var(--YELLOWISH) !important;
+    border: 1px solid var(--DARK) !important;
+    color: var(--DARK) !important;
+
+}
+
+#txtPesquisar::placeholder{
+    font-weight: bold;
+    color: var(--DARK) !important;
+    text-transform: uppercase;
+}
+
+#txtPesquisar:focus{
+    border: 2px solid var(--ORANGISH) !important;
+    outline: 0 !important;
+}
