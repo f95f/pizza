@@ -1,7 +1,3 @@
-
-<!--div class="view jarallax" data-jarallax="{&quot;speed&quot;: 0.2}" style="background-image: url('../../media/back_img_2H.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center; z-index: 0;" data-jarallax-original-styles="background-image: url('../../media/back_img_2H.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;"-->
-
-<!--div class = "parallax-bg"-->
 <div class="mdb-bg-video banner">
     <video autoplay muted loop id="video-background">
         <source src="{{asset('resources/media/banner.mp4')}}" type="video/mp4">
@@ -37,24 +33,3 @@
 
     </div>
 </div>
-
-    <!--div class="container h-100 d-flex justify-content-center align-items-center parallax-content">
-        <div>
-            <div class="row pt-5 mt-3">
-                <div class="col-md-12 wow fadeIn mb-3" style="visibility: visible; animation-name: fadeIn; animation-iteration-count: 1;">
-                    <div class="text-center">
-                        <h1 class="display-4 font-weight-bold mb-5 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp; animation-iteration-count: 1;">Our New Pizza is Ready</h1>
-            
-                        <h5 class="mb-5 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeInUp; animation-iteration-count: 1; animation-delay: 0.2s;">It comes with a lot of new flavours, easy to eat
-                        and taste. Order it out now!</h5>
-                        <div class="wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-name: fadeInUp; animation-iteration-count: 1; animation-delay: 0.4s;">
-                            <a class="btn py-4 waves-effect waves-light btn-destaque" href = "pedir"><i class="fas fa-concierge-bell"></i> Peça Agora!</a>
-                            <a class="btn py-4 waves-effect waves-light btn-neutro" href="cardapio"><i class="fas fa-book left"></i> Cardápio</a>
-                        </div>
-            
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div-->

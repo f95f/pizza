@@ -4,7 +4,7 @@
 @component('components.banner');
 @endcomponent
 
-<div class="container-fluid px-0">
+<div class="container-fluid px-0 ">
 
     @component('components.faixa',[
         'fundo' => '--ORANGISH',
@@ -121,7 +121,7 @@
     ])
     @endcomponent
 
-    <div class="container w-100">
+    <div class="container">
 
         <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 
@@ -139,6 +139,7 @@
                 <li class="active" data-target="#multi-item-example" data-slide-to="1"style = "background-color: var(--ORANGISH)" ></li>
                 <li data-target="#multi-item-example" data-slide-to="2"style = "background-color: var(--ORANGISH)" ></li>
                 <li data-target="#multi-item-example" data-slide-to="3"style = "background-color: var(--ORANGISH)" ></li>
+                <li data-target="#multi-item-example" data-slide-to="4"style = "background-color: var(--ORANGISH)" ></li>
             </ol>
 
             <div class="carousel-inner" role="listbox">
@@ -166,15 +167,16 @@
                     ])
                     @endcomponent
 
+                </div>
+                
+                <div class="carousel-item active">
+
                     @component('components.card-promo', [
                         'tipo' => 'Doce',
                         'imagem' => 'ovomaltine',
                         'sabor' => 'Ovomaltine'
                     ])
                     @endcomponent
-                </div>
-                
-                <div class="carousel-item active">
 
                     @component('components.card-promo', [
                         'tipo' => 'Tradicional',
@@ -190,6 +192,10 @@
                     ])
                     @endcomponent
 
+                </div>
+
+                <div class="carousel-item">
+
                     @component('components.card-promo', [
                         'tipo' => 'Tradicional',
                         'sabor' => 'Portuguesa',
@@ -203,15 +209,17 @@
                         'imagem' => 'limão'
                     ])
                     @endcomponent
-                </div>
 
-                <div class="carousel-item">
                     @component('components.card-promo', [
                         'tipo' => 'Doce',
                         'sabor' => 'Banana com Canela',
                         'imagem' => 'banana'
                     ])
                     @endcomponent
+
+                </div>
+
+                <div class="carousel-item">
 
                     @component('components.card-promo', [
                         'tipo' => 'Tradicional',
@@ -237,12 +245,6 @@
                 </div>
 
                 <div class="carousel-item">
-                    @component('components.card-promo', [
-                        'tipo' => 'Internacional',
-                        'sabor' => 'Bacon, Lettuce & Tomatoes',
-                        'imagem' => 'blt'
-                    ])
-                    @endcomponent
 
                     @component('components.card-promo', [
                         'tipo' => 'Internacional',
@@ -281,4 +283,5 @@
 
     </div>
 
+    <hr>
 </div>

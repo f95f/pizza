@@ -1,4 +1,4 @@
-<div class="col-md-3">
+<div class="col-md-4">
 
     <div class="card card-cascade narrower p-2">
 

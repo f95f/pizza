@@ -1,6 +1,6 @@
 <footer class="page-footer font-small">
 
-    <div class = "z-depth-1-half" style="background-color: var(--DARK);"><!-- rodapé - redes sociais -->
+    <div style="background-color: var(--DARK);">
         <div class="container"> 
             <div class="row py-4 d-flex mb-1 align-items-center">
 
@@ -42,7 +42,9 @@
         <div class="row mt-3">
 
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto">
-                <img src="{{asset('resources/media/logo_grande_branco.png')}}" alt="Logo Grande - Vera Napoli" height = "220"> 
+                <a href="index">
+                    <img src="{{asset('resources/media/logo_grande_branco.png')}}" alt="Logo Grande - Vera Napoli" height = "220">
+                </a> 
             </div>
 
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -99,7 +101,7 @@
     </div>
 
     <div class="footer-copyright text-center py-4" style = " background-color: var(--DARK)">© 2023 Copyright:
-        <a href=""> GU3026965 @ IFSP Guarulhos</a>
+        <a href=""> GU3026965 - IFSP Guarulhos</a>
     </div>
 
 </footer>
