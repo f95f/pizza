@@ -112,16 +112,6 @@
                 @endcomponent
 
             </div>
-            <div class="row py-5">
-
-                @component('components.pizza-tamanhos',[
-                    'titulo' => 'Família',
-                    'icone' => 'pizza_familia',
-                    'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-                ])
-                @endcomponent
-
-            </div>
         </div>
     </div>
 
@@ -131,150 +121,164 @@
     ])
     @endcomponent
 
-    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+    <div class="container w-100">
 
-          <!--Controls-->
-        <div class="controls-top mb-2">
-            <a class="btn-floating waves-effect waves-light mt-5" style = "background-color: var(--ORANGISH)" href="#multi-item-example" data-slide="prev">
-                <i class="fas fa-chevron-left"></i>
-            </a>
-            <a class="btn-floating waves-effect waves-light mt-5" style = "background-color: var(--ORANGISH)" href="#multi-item-example" data-slide="next">
-                <i class="fas fa-chevron-right"></i>
-            </a>
+        <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+            <div class="controls-top mb-2">
+                <a class="btn-floating waves-effect waves-light mt-5" style = "background-color: var(--ORANGISH)" href="#multi-item-example" data-slide="prev">
+                    <i class="fas fa-chevron-left"></i>
+                </a>
+                <a class="btn-floating waves-effect waves-light mt-5" style = "background-color: var(--ORANGISH)" href="#multi-item-example" data-slide="next">
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+
+            <ol class="carousel-indicators">
+                <li data-target="#multi-item-example" data-slide-to="0"style = "background-color: var(--ORANGISH)" ></li>
+                <li class="active" data-target="#multi-item-example" data-slide-to="1"style = "background-color: var(--ORANGISH)" ></li>
+                <li data-target="#multi-item-example" data-slide-to="2"style = "background-color: var(--ORANGISH)" ></li>
+                <li data-target="#multi-item-example" data-slide-to="3"style = "background-color: var(--ORANGISH)" ></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+
+                <div class="carousel-item">
+
+                    @component('components.card-promo', [
+                        'tipo' => 'Tradicional',
+                        'sabor' => 'Mussarela',
+                        'imagem' => 'mussarela'
+                    ])
+                    @endcomponent
+
+                    @component('components.card-promo', [
+                        'tipo' => 'Tradicional',
+                        'sabor' => 'Calabresa',
+                        'imagem' => 'calabresa'
+                    ])
+                    @endcomponent
+
+                    @component('components.card-promo', [
+                        'tipo' => 'Tradicional',
+                        'sabor' => 'Marguerita',
+                        'imagem' => 'marguerita'
+                    ])
+                    @endcomponent
+
+                    @component('components.card-promo', [
+                        'tipo' => 'Doce',
+                        'imagem' => 'ovomaltine',
+                        'sabor' => 'Ovomaltine'
+                    ])
+                    @endcomponent
+                </div>
+                
+                <div class="carousel-item active">
+
+                    @component('components.card-promo', [
+                        'tipo' => 'Tradicional',
+                        'sabor' => 'Mexicana',
+                        'imagem' => 'mexicana'
+                    ])
+                    @endcomponent
+
+                    @component('components.card-promo', [
+                        'tipo' => 'Tradicional',
+                        'sabor' => 'Napolitana',
+                        'imagem' => 'napolitana'
+                    ])
+                    @endcomponent
+
+                    @component('components.card-promo', [
+                        'tipo' => 'Tradicional',
+                        'sabor' => 'Portuguesa',
+                        'imagem' => 'portuguesa'
+                    ])
+                    @endcomponent
+
+                    @component('components.card-promo', [
+                        'tipo' => 'Doce',
+                        'sabor' => 'Limão',
+                        'imagem' => 'limão'
+                    ])
+                    @endcomponent
+                </div>
+
+                <div class="carousel-item">
+                    @component('components.card-promo', [
+                        'tipo' => 'Doce',
+                        'sabor' => 'Banana com Canela',
+                        'imagem' => 'banana'
+                    ])
+                    @endcomponent
+
+                    @component('components.card-promo', [
+                        'tipo' => 'Tradicional',
+                        'sabor' => 'Country',
+                        'imagem' => 'country'
+                    ])
+                    @endcomponent
+
+                    @component('components.card-promo', [
+                        'tipo' => 'Internacional',
+                        'sabor' => 'Mac & Cheese',
+                        'imagem' => 'mac_n_cheese'
+                    ])
+                    @endcomponent
+
+                    @component('components.card-promo', [
+                        'tipo' => 'Internacional',
+                        'sabor' => 'Tuscan Roma',
+                        'imagem' => 'tuscan_roma'
+                    ])
+                    @endcomponent
+
+                </div>
+
+                <div class="carousel-item">
+                    @component('components.card-promo', [
+                        'tipo' => 'Internacional',
+                        'sabor' => 'Bacon, Lettuce & Tomatoes',
+                        'imagem' => 'blt'
+                    ])
+                    @endcomponent
+
+                    @component('components.card-promo', [
+                        'tipo' => 'Internacional',
+                        'sabor' => 'Texan Taco',
+                        'imagem' => 'texan_taco'
+                    ])
+                    @endcomponent
+                    
+                    @component('components.card-promo', [
+                        'tipo' => 'Internacional',
+                        'sabor' => 'Buffalo Chicken',
+                        'imagem' => 'buffalo_chicken'
+                    ])
+                    @endcomponent
+
+                    @component('components.card-promo', [
+                        'tipo' => 'Internacional',
+                        'sabor' => 'Tuscan Roma',
+                        'imagem' => 'tuscan_roma'
+                    ])
+                    @endcomponent
+
+                </div>
+            </div>
         </div>
         
-        <ol class="carousel-indicators">
-            <li data-target="#multi-item-example" data-slide-to="0"style = "background-color: var(--ORANGISH)" ></li>
-            <li class="active" data-target="#multi-item-example" data-slide-to="1"style = "background-color: var(--ORANGISH)" ></li>
-            <li data-target="#multi-item-example" data-slide-to="2"style = "background-color: var(--ORANGISH)" ></li>
-            <li data-target="#multi-item-example" data-slide-to="3"style = "background-color: var(--ORANGISH)" ></li>
-        </ol>
+        <div class="row my-4">
+            <div class="col mx-auto text-center">
 
-        <div class="carousel-inner" role="listbox">
+                <h4>
+                    <a class = "font-weight-bold" href = "cardapios">Confira o cardápio completo!</a>
+                </h4>
 
-            <div class="carousel-item">
-
-                @component('components.card-promo', [
-                    'tipo' => 'Tradicional',
-                    'sabor' => 'Mussarela',
-                    'imagem' => 'mussarela'
-                ])
-                @endcomponent
-
-                @component('components.card-promo', [
-                    'tipo' => 'Tradicional',
-                    'sabor' => 'Calabresa',
-                    'imagem' => 'calabresa'
-                ])
-                @endcomponent
-
-                @component('components.card-promo', [
-                    'tipo' => 'Tradicional',
-                    'sabor' => 'Marguerita',
-                    'imagem' => 'marguerita'
-                ])
-                @endcomponent
-
-                @component('components.card-promo', [
-                    'tipo' => 'Doce',
-                    'imagem' => 'ovomaltine',
-                    'sabor' => 'Ovomaltine'
-                ])
-                @endcomponent
-            </div>
-            
-            <div class="carousel-item active">
-
-                 @component('components.card-promo', [
-                    'tipo' => 'Tradicional',
-                    'sabor' => 'Mexicana',
-                    'imagem' => 'mexicana'
-                ])
-                @endcomponent
-
-                @component('components.card-promo', [
-                    'tipo' => 'Tradicional',
-                    'sabor' => 'Napolitana',
-                    'imagem' => 'napolitana'
-                ])
-                @endcomponent
-
-                @component('components.card-promo', [
-                    'tipo' => 'Tradicional',
-                    'sabor' => 'Portuguesa',
-                    'imagem' => 'portuguesa'
-                ])
-                @endcomponent
-
-                @component('components.card-promo', [
-                    'tipo' => 'Doce',
-                    'sabor' => 'Limão',
-                    'imagem' => 'limão'
-                ])
-                @endcomponent
-            </div>
-
-            <div class="carousel-item">
-                @component('components.card-promo', [
-                    'tipo' => 'Doce',
-                    'sabor' => 'Banana com Canela',
-                    'imagem' => 'banana'
-                ])
-                @endcomponent
-
-                @component('components.card-promo', [
-                    'tipo' => 'Tradicional',
-                    'sabor' => 'Country',
-                    'imagem' => 'country'
-                ])
-                @endcomponent
-
-                @component('components.card-promo', [
-                    'tipo' => 'Internacional',
-                    'sabor' => 'Mac & Cheese',
-                    'imagem' => 'mac_n_cheese'
-                ])
-                @endcomponent
-
-                @component('components.card-promo', [
-                    'tipo' => 'Internacional',
-                    'sabor' => 'Tuscan Roma',
-                    'imagem' => 'tuscan_roma'
-                ])
-                @endcomponent
-
-            </div>
-
-            <div class="carousel-item">
-                @component('components.card-promo', [
-                    'tipo' => 'Internacional',
-                    'sabor' => 'Bacon, Lettuce & Tomatoes',
-                    'imagem' => 'blt'
-                ])
-                @endcomponent
-
-                @component('components.card-promo', [
-                    'tipo' => 'Internacional',
-                    'sabor' => 'Texan Taco',
-                    'imagem' => 'texan_taco'
-                ])
-                @endcomponent
-                
-                @component('components.card-promo', [
-                    'tipo' => 'Internacional',
-                    'sabor' => 'Buffalo Chicken',
-                    'imagem' => 'buffalo_chicken'
-                ])
-                @endcomponent
-
-                @component('components.card-promo', [
-                    'tipo' => 'Internacional',
-                    'sabor' => 'Tuscan Roma',
-                    'imagem' => 'tuscan_roma'
-                ])
-                @endcomponent
-
-            </div>
+            </div>    
         </div>
+
     </div>
+
 </div>

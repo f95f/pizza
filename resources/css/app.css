@@ -141,6 +141,14 @@ a:hover{
     transition: all .2s;
 }
 
+.btn-pedir{
+    width: 80%;
+    background-color: var(--YELLOWISH);
+    color: var(--CLEAR);
+    font-size: 1.1em;
+    transition: all .2s;
+}
+
 .btn-destaque{
     text-transform: uppercase;
     background-color: var(--YELLOWISH);
@@ -154,13 +162,13 @@ a:hover{
     width: 220px;
 }
 
-.btn-neutro:hover, .btn-destaque:hover{
+.btn-neutro:hover, .btn-destaque:hover, .btn-pedir:hover{
     background-color: var(--ORANGISH);
     color: var(--WHITE) !important;
 }
 
 .card-cascade{
-    background-image: linear-gradient(to bottom, var(--DARK), var(--WHITE));
+    background-color: var(--GREENISH);
     border-radius: 0;
 }
 

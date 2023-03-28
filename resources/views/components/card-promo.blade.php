@@ -1,6 +1,5 @@
 <div class="col-md-3">
 
-    <!--Card-->
     <div class="card card-cascade narrower p-2">
 
         <div class="view view-cascade overlay" style = "box-shadow: none">
@@ -11,7 +10,9 @@
 
             <h4 class="card-title">{{$sabor}}</h4>
 
-            <a class="btn py-4 waves-effect waves-light btn-destaque" href = "pedir">
+            <h6 class="mb-3 grey-text">{{$tipo}}</h6>
+
+            <a class="btn py-4 waves-effect waves-light btn-pedir" href = "pedir">
                 Pedir!
             </a>
 
