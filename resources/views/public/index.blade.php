@@ -64,10 +64,10 @@
         
     <div class="w-100 fundo-textura-parallax">
 
-        <div class=" mask rgba-black-strong ">
+        <div class=" mask rgba-black-strong py-5">
 
             <div class="container mx-auto">
-                <div class="row py-5">
+                <div class="row">
 
                     @component('components.pizza-tamanhos',[
                         'titulo' => 'Fatias',
@@ -91,7 +91,7 @@
                     @endcomponent
 
                 </div>
-                <div class="row py-5">
+                <div class="row">
 
                     @component('components.pizza-tamanhos',[
                         'titulo' => 'Família',

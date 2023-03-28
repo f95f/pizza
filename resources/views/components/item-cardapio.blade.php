@@ -26,7 +26,7 @@
             
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
-            <a class="btn py-4 waves-effect mx-auto waves-light btn-pedir" href = "pedir">
+            <a class="btn py-3 px-1 mx-2 waves-effect mx-auto waves-light btn-pedir" href = "pedir">
                 Pedir!
             </a>
         

@@ -130,7 +130,16 @@ a{
 a:hover{
     color: var(--ORANGISH);
 }
+.card-sobre{
+    transition: all .2s;
+}
 
+.card-sobre:hover{
+    background-color: var(--YELLOWISH);
+}
+.card-sobre:hover h4{
+    color: var(--WHITE) !important;
+}
 .btn-neutro{
     background-color: var(--WHITE);
     color: var(--ORANGISH);

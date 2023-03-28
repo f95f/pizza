@@ -1,5 +1,5 @@
 
-<div class="col-md-4 align-items-center text-center">
+<div class="col-md-4 py-5 align-items-center text-center card-sobre">
 
     <h4 class="font-weight-bold my-4">{{$titulo}}</h4>
     <div class="mx-auto my-4 tamanhos">  
