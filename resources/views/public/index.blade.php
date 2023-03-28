@@ -63,54 +63,58 @@
         @endcomponent
         
     <div class="w-100 fundo-textura-parallax">
-        <div class="container mx-auto">
-            <div class="row py-5">
 
-                @component('components.pizza-tamanhos',[
-                    'titulo' => 'Fatias',
-                    'icone' => 'pizza_fatia',
-                    'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-                ])
-                @endcomponent
+        <div class=" mask rgba-black-strong ">
 
-                @component('components.pizza-tamanhos',[
-                    'titulo' => 'Mini-pizzas',
-                    'icone' => 'pizza_mini',
-                    'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-                ])
-                @endcomponent
-                
-                @component('components.pizza-tamanhos',[
-                    'titulo' => 'Tradicionais',
-                    'icone' => 'pizza_trad',
-                    'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-                ])
-                @endcomponent
+            <div class="container mx-auto">
+                <div class="row py-5">
 
-            </div>
-            <div class="row py-5">
+                    @component('components.pizza-tamanhos',[
+                        'titulo' => 'Fatias',
+                        'icone' => 'pizza_fatia',
+                        'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                    ])
+                    @endcomponent
 
-                @component('components.pizza-tamanhos',[
-                    'titulo' => 'Família',
-                    'icone' => 'pizza_familia',
-                    'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-                ])
-                @endcomponent
+                    @component('components.pizza-tamanhos',[
+                        'titulo' => 'Mini-pizzas',
+                        'icone' => 'pizza_mini',
+                        'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                    ])
+                    @endcomponent
+                    
+                    @component('components.pizza-tamanhos',[
+                        'titulo' => 'Tradicionais',
+                        'icone' => 'pizza_trad',
+                        'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                    ])
+                    @endcomponent
 
-                @component('components.pizza-tamanhos',[
-                    'titulo' => 'Tradicionais',
-                    'icone' => 'pizza_trad',
-                    'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-                ])
-                @endcomponent
+                </div>
+                <div class="row py-5">
 
-                @component('components.pizza-tamanhos',[
-                    'titulo' => 'Família',
-                    'icone' => 'pizza_familia',
-                    'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-                ])
-                @endcomponent
+                    @component('components.pizza-tamanhos',[
+                        'titulo' => 'Família',
+                        'icone' => 'pizza_familia',
+                        'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                    ])
+                    @endcomponent
 
+                    @component('components.pizza-tamanhos',[
+                        'titulo' => 'Tradicionais',
+                        'icone' => 'pizza_trad',
+                        'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                    ])
+                    @endcomponent
+
+                    @component('components.pizza-tamanhos',[
+                        'titulo' => 'Família',
+                        'icone' => 'pizza_familia',
+                        'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                    ])
+                    @endcomponent
+
+                </div>
             </div>
         </div>
     </div>
@@ -275,7 +279,7 @@
             <div class="col mx-auto text-center">
 
                 <h4>
-                    <a class = "font-weight-bold" href = "cardapios">Confira o cardápio completo!</a>
+                    <a class = "font-weight-bold" href = "cardapio">Confira o cardápio completo!</a>
                 </h4>
 
             </div>    

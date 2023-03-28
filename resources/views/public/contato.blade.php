@@ -70,7 +70,7 @@
                             <div class="col-md-12">
                                 <div class="md-form">
 
-                                    <textarea type="text" id="txtMensagem" name="txtMensagem" rows="2" class="form-control md-textarea"></textarea>
+                                    <textarea type="text" id="txtMensagem" name="txtMensagem" rows="5" class="form-control md-textarea"></textarea>
                                     <label for="txtMensagem">Mensagem</label>
 
                                 </div>
@@ -93,7 +93,7 @@
                     <ul class="list-unstyled mb-0">
                         <li>
                             <i class="fas fa-map-marker-alt fa-2x mb-1"></i>
-                            <p>Av. Salgado Filho, 8888 - Guarulhos, SP</p>
+                            <p>Av. Salgado Filho, 8888 <br> Guarulhos, SP</p>
                         </li>
 
                         <li>
