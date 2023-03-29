@@ -80,7 +80,7 @@
                     <a href="contato">Contato</a>
                 </p>
                 <p>
-                    <a href="trabalheConosco">Trabalhe Conosco</a>
+                    <a href="trabalhe-conosco">Trabalhe Conosco</a>
                 </p>
                 <p>
                     <a href="#!">Área Restrita</a>

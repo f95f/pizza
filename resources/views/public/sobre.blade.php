@@ -27,16 +27,17 @@
                 </p>
             </div>
 
+            <div class="row">
+
+                <img src="" alt=""> 
+            
+            </div>
             
             @component('components.social-row')
             @endcomponent
             
-            
-            <div class="row">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero tempore accusamus vitae, laboriosam possimus magni cumque suscipit ex sequi, sit deserunt ad totam in quasi, ut minus consequuntur veniam incidunt!
-                </p>
-            </div>
+            @component('components.institucional')
+            @endcomponent
             
         </section>
     </div>

@@ -44,7 +44,7 @@ class PublicController extends Controller{
     
     public function trabalheConosco(){
         
-        return view('forms.trabalhe_conosco', ['pageTitle' => 'Junte-se a nós!']);
+        return view('public.trabalhe-conosco', ['pageTitle' => 'Junte-se a nós!']);
     }
 
     public function save(Request $request){
