@@ -23,7 +23,7 @@
             <div class="row">
                 <h4>Nossa História</h4>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero tempore accusamus vitae, laboriosam possimus magni cumque suscipit ex sequi, sit deserunt ad totam in quasi, ut minus consequuntur veniam incidunt!
+                    Somos uma pizzaria tradicional, mas moderna e apaixonada combina o melhor dos dois mundos - o sabor clássico da autêntica pizza italiana e a criatividade e inovação da fabricação de pizza moderna. Essa marca se orgulha de seu compromisso em usar apenas os ingredientes mais frescos e finos, provenientes de fazendas e produtores locais. Cada pizza é criada com cuidado e atenção aos detalhes, refletindo uma paixão pela tradição e um amor pelo sabor. Com uma atmosfera acolhedora e convidativa e uma equipe simpática, esta pizzaria oferece uma experiência que combina a nostalgia do charme do velho mundo com a empolgação das técnicas culinárias modernas.
                 </p>
             </div>
 
@@ -39,6 +39,14 @@
             @component('components.institucional')
             @endcomponent
             
+            <hr>
+                <div class="row">
+                    <p>
+                        Tem interesse em fazer parte da nossa família?
+                        <a href="trabalhe-conosco">trabalhe conosco</a>!
+                    </p>
+                </div>
+            <hr>
         </section>
     </div>
 </div>

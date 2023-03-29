@@ -19,7 +19,9 @@
         
                     <h5 class="mb-4 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeInUp; animation-iteration-count: 1; animation-delay: 0.2s;">
 
-                        Esculpida primorozamente em cada fatia, aonde a Tradição encontra a Inovação e a Criatividade. 
+                        Esculpida primorozamente em cada fatia
+                        <br>
+                        Onde Tradição encontra a Inovação e a Criatividade
                     
                     </h5>
                     <div class="wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-name: fadeInUp; animation-iteration-count: 1; animation-delay: 0.4s;">
