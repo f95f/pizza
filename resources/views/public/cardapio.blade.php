@@ -31,14 +31,14 @@
 
             <div class="btn-group btn-group-toggle mt-3 align-text-center" data-toggle="buttons">
                 
-                    <label class="btn mx-2 active">
+                    <label class="btn mx-2 active "rounded="true" >
                         <input type="checkbox" checked autocomplete="off"> Tradicionais
                     </label>
                     <label class="btn mx-2 ">
-                        <input type="checkbox" autocomplete="off"> Doces
+                        <input type="checkbox" autocomplete="off"rounded="true" > Doces
                     </label>
                     <label class="btn mx-2 ">
-                        <input type="checkbox" autocomplete="off"> Internacionais
+                        <input type="checkbox" autocomplete="off"rounded="true" > Internacionais
                     </label>
                     
              </div>
@@ -47,7 +47,6 @@
 
 </div>
     
-<hr>
 <div class="container">
 
     <div class="row justify-content-center align-items-center ">
@@ -203,5 +202,5 @@
 
         </div>
     </div>
+    <hr>
 </div>
-                

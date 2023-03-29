@@ -130,6 +130,10 @@ a{
 a:hover{
     color: var(--ORANGISH);
 }
+
+hr{
+    background-color: var(--YELLOWISH); 
+}
 .card-sobre{
     transition: all .2s;
 }

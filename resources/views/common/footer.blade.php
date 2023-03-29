@@ -22,6 +22,9 @@
                     <a class="ins-ic">
                         <i class="fab fa-instagram white-text mr-4"> </i>
                     </a>
+                    <a class="ins-ic">
+                        <i class="fab fa-pinterest white-text mr-4"> </i>
+                    </a>
                     <a class="tw-ic">
                         <i class="fab fa-twitter white-text mr-4"> </i>
                     </a>

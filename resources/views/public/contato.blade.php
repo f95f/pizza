@@ -18,17 +18,25 @@
 
     <div class="container">
 
-        <section class="section pb-5 wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-name: fadeIn; animation-iteration-count: 1; animation-delay: 0.3s; color: var(--WHITE)">
-
+        <section class="section wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-name: fadeIn; animation-iteration-count: 1; animation-delay: 0.3s; color: var(--WHITE)">
+        
             <div class="row">
+                <div class="col mx-auto align-text-center">
 
-                <h4 class="text-center white-text mb-5 mx-auto w-responsive">
-                    Dúvidas, críticas, sugestões ou reclamações? <br> Entre em contato como preferir. Atenderemos o quanto antes!
-                </h4>
-
+                    <h4 class="white-text mx-auto w-responsive">
+                        Dúvidas, críticas, sugestões ou reclamações? 
+                    </h4>
+                    <p class = "text-center">
+                        Entre em contato como preferir. Atenderemos o quanto antes!
+                    </p>
+      
+                </div>
             </div>
 
-            <div class="row">
+            @component('components.social-row')
+            @endcomponent
+            
+            <div class="row py-5">
 
                 <div class="col-md-8 mb-md-0 mb-5">
                     <form id="formContato" name="formContato" action="#" method="POST">
@@ -118,4 +126,5 @@
         </section>
 
     </div>
+    
 </div>
