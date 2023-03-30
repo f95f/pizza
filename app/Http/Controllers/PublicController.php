@@ -47,6 +47,11 @@ class PublicController extends Controller{
         return view('public.trabalhe-conosco', ['pageTitle' => 'Junte-se a nós!']);
     }
 
+    public function autenticarFuncionario(){
+        
+        return view('private.autenticar', ['pageTitle' => 'Identifique-se!']);
+    }
+
     public function save(Request $request){
         
         $data = $request -> input();

@@ -21,7 +21,8 @@ Route::get('/pedir', [PublicController::class, 'pedir']);
 Route::get('/sobre', [PublicController::class, 'sobre']);
 Route::get('/contato', [PublicController::class, 'contato']);
 Route::get('/cardapio', [PublicController::class, 'cardapio']);
-Route::get('/trabalhe-conosco', [PublicController::class, 'trabalhe-conosco']);
+Route::get('/trabalhe-conosco', [PublicController::class, 'trabalheConosco']);
+Route::get('/autenticar', [PublicController::class, 'autenticarFuncionario']);
 
 Route::post('/save', [PublicController::class, 'save']);
 

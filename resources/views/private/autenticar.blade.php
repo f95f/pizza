@@ -1,5 +1,16 @@
 @extends('common.base-template')
 @section('content')
 
-<h1>AAAA</h1>
+<div class="container-flex fundo-form">
+
+    <div class="container" style = "padding-top: 150px">
+        
+        <div class = "row">
+            
+            @extends('forms.autenticar_funcionario')
+            
+        </div>
+    </div>
+
+</div>
 

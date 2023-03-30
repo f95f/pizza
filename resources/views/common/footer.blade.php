@@ -61,7 +61,7 @@
                     <a href="cardapio">Cardápio</a>
                 </p>
                 <p>
-                    <a href="signUp">Cadastre-se</a>
+                    <a href="signup">Cadastre-se</a>
                 </p>
                 <p>
                     <a href="login">Entrar</a>
@@ -83,7 +83,7 @@
                     <a href="trabalhe-conosco">Trabalhe Conosco</a>
                 </p>
                 <p>
-                    <a href="#!">Área Restrita</a>
+                    <a href="autenticar">Área Restrita</a>
                 </p>
 
             </div>

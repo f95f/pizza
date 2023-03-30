@@ -1,8 +1,7 @@
         <div class="col-md-6 mx-auto py-5">
 
-            <form method = "post" class="text-center p-5" action="{{ url('save') }}">
-                @csrf
-                
+            <form method = "post" class="text-center p-5">
+
                 <h4>Cadastre-se!</h4>
 
                 <div class="form-row mb-4 mt-5">
