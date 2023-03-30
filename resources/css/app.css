@@ -250,3 +250,11 @@ form input:focus, textarea:focus{
     border: 2px solid var(--ORANGISH) !important;
     outline: 0 !important;
 }
+
+.fundo-form{
+    background-image: url('../media/back_img_1H.jpg');
+    background-color: var(--DARKER);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

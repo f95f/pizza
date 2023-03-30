@@ -7,7 +7,7 @@
         
         <div class = "row">
             
-            @extends('forms.login_cliente')
+            @extends('forms.signup_cliente')
             
         </div>
     </div>

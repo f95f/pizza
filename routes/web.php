@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/index', [PublicController::class, 'index']);
 Route::get('/login', [PublicController::class, 'login']);
-Route::get('/signUp', [PublicController::class, 'signUp']);
+Route::get('/signup', [PublicController::class, 'signUp']);
 Route::get('/pedir', [PublicController::class, 'pedir']);
 Route::get('/sobre', [PublicController::class, 'sobre']);
 Route::get('/contato', [PublicController::class, 'contato']);

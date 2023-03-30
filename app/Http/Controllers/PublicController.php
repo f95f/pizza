@@ -19,7 +19,7 @@ class PublicController extends Controller{
 
     public function signUp(){
 
-        return view('forms.signup_cliente', ['pageTitle' => 'Cadastre-se!']);
+        return view('public.signup', ['pageTitle' => 'Cadastre-se!']);
     }
     
     public function pedir(){
