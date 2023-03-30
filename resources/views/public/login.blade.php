@@ -1,8 +1,8 @@
 @extends('common.base-template')
 @section('content')
 
-@component('components.header')
-@endcomponent
+<div class="container" style = "padding-top: 150px">
+    
+    
 
-aaa
-
+</div>

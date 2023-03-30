@@ -1,11 +1,15 @@
 <hr>
-<div class="row my-5">
 
-    <a class="btn" style="background-color: #25d366;" href="#!" role="button">
-        <i class="fab fa-whatsapp"></i>
-        Whatsapp
-    </a>
+<div class="row mt-5">
     
+    <h4 class="center-text mx-auto w-responsive">
+        {{$titulo}}
+    </h4>
+
+</div>
+
+<div class="row mb-5">
+                
     <a class="btn" style="background-color: #3b5998;" href="#!" role="button">
         <i class="fab fa-facebook-f"></i>
         Facebook
@@ -16,7 +20,7 @@
         Twitter
     </a>
     
-    <a class="btn" style="background-color: #ac2bac;" href="#!" role="button">
+    <a class="btn" style="background-color: #e644a2;" href="#!" role="button">
         <i class="fab fa-instagram"></i>
         Instagram
     </a>
@@ -35,6 +39,7 @@
         <i class="fab fa-youtube"></i>
         Youtube
     </a>
-    
+
 </div>
+
 <hr>

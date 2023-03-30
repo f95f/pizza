@@ -42,6 +42,7 @@ body{
 }
 
 .navbar-toggler-icon{
+    
 }
 .nav-item{
     margin: 10px 15px; 
@@ -135,7 +136,7 @@ hr{
     background-color: var(--YELLOWISH); 
 }
 .card-sobre{
-    transition: all .2s;
+    transition: all .6s;
 }
 
 .card-sobre:hover{
@@ -153,7 +154,7 @@ hr{
 .btn-pedir{
     width: 80%;
     background-color: var(--YELLOWISH);
-    color: var(--CLEAR);
+    color: var(--WHITE);
     font-size: 1.1em;
     transition: all .2s;
 }
@@ -210,12 +211,18 @@ footer p a:hover{
     border-bottom: 1px solid var(--YELLOWISH);
 }
 
-#banner-contato{
-    background-image: url("../media/back_img_2H.jpg");
+.banner-pequeno{
     background-color: var(--DARKER);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+#banner-pequeno-img1{
+    background-image: url('../media/back_img_1H.jpg');
+}
+#banner-pequeno-img2{
+    background-image: url('../media/back_img_2H.jpg');
 }
 
 form label, form input, textarea{

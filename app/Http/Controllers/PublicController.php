@@ -14,7 +14,7 @@ class PublicController extends Controller{
 
     public function login(){
 
-        return view('forms.login_cliente', ['pageTitle' => 'Entrar']);
+        return view('public.login', ['pageTitle' => 'Entrar']);
     }
 
     public function signUp(){
@@ -59,34 +59,5 @@ class PublicController extends Controller{
 
     }
 
-    /*
-        - Funções para páginas internas -
-    
-    public function painel(){
-    
-        return view('private.painel');
-    }
-
-    public function autenticar(){
-    
-        return view('private.autenticar');
-    }
-    
-    public function editar_item(){
-    
-        return view('private.editar-item');
-    }
-
-    public function cadastrar_item(){
-    
-        return view('private.cadastrar-item');
-    }
-
-    public function editar_acessos(){
-    
-        return view('private.editar-acessos');
-    }
-
-    */
 }
     

@@ -1,22 +1,15 @@
 @extends('common.base-template')
 @section('content')
 
-<div class="container-fluid mx-0 px-0 fundo-escuro">
+<div class="container-fluid mx-0 px-0">
 
-    <div id = "banner-contato">
+    @component('components.banner-pequeno', [
+        'imagem' => 'banner-pequeno-img2',
+        'texto' => 'Fale com a gente!'
+    ])
+    @endcomponent
 
-        <div class="mask rgba-orange-light">
-
-            <div class="row justify-content-center align-items-center mb-5 pb-4 mx-0 px-0 " style="padding-top:150px">
-
-                <h2 class="font-weight-bold text-center h1 my-5 sombra" style = "color: var(--CLEAR)">Fale com a gente!</h2>
-
-            </div>
-        </div>
-
-    </div>
-
-    <div class="container">
+    <div class="container pt-5">
 
         <section class="section wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-name: fadeIn; animation-iteration-count: 1; animation-delay: 0.3s; color: var(--WHITE)">
         
@@ -33,7 +26,9 @@
                 </div>
             </div>
 
-            @component('components.social-row')
+            @component('components.social-row', [
+                'titulo' => 'Nossas redes sociais!'    
+            ])
             @endcomponent
             
             <div class="row py-5">
@@ -126,5 +121,5 @@
         </section>
 
     </div>
-    
+
 </div>

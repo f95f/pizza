@@ -1,44 +1,21 @@
-@extends("common.base-template")
 
-<div class="containter">
-    
-    <div class="row mt-5">
+<form class="text-center border border-light p-5" action="#!">
 
-        <div class="col-md-3 mt-5 mx-auto">
+    <p class="h4 mb-4">Entrar</p>
 
-            <form class="text-center border border-light p-5" action="#!">
+    <input type="email" id="txtEmail" name ="txtEmail" class="form-control mb-4" placeholder="E-mail">
+    <input type="password" id="txtSenha" name ="txtSenha" class="form-control" placeholder="Senha">
 
-                <p class="h4 mb-4">Entrar</p>
-
-                <input type="email" id="txtEmail" name ="txtEmail" class="form-control mb-4" placeholder="E-mail">
-                <input type="password" id="txtSenha" name ="txtSenha" class="form-control" placeholder="Senha">
-
-                <div class="d-flex justify-content-around">
-                    <!--div>
-                        < Remember me>
-                        <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
-                            <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
-                        </div>
-                    </div-->
-                    <!--div>
-                        < Forgot password >
-                        <a href="">Forgot password?</a>
-                    </div-->
-                </div>
-
-                <!-- Sign in button -->
-                <button class="btn btn-info btn-block my-4" type="submit">Entrar</button>
-
-                <!-- Register -->
-                <p>Não?
-                    <a href="signUp"><strong>Cadastre-se!</strong></a>
-                </p>
-
-            </form>
-            <!-- Default form login -->
-
+    <div class="d-flex justify-content-around">
+        <div>
+            <a href="">Esqueceu a senha?</a>
         </div>
     </div>
 
-</div>
+    <button class="btn btn-info btn-block my-4" type="submit">Entrar</button>
+
+    <p>Não possui usuário?
+        <a href="signUp"><strong>Cadastre-se!</strong></a>
+    </p>
+
+</form>

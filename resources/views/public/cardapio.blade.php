@@ -1,19 +1,13 @@
 @extends('common.base-template')
 @section('content')
 
-<div class="container-fluid mx-0 px-0 fundo-escuro">
+<div class="container-fluid mx-0 mb-3 px-0">
     
-    <div id = "banner-contato">
-
-        <div class="mask rgba-orange-light">
-
-            <div class="row justify-content-center align-items-center pb-4 mx-0 px-0 " style="padding-top:150px">
-
-                <h2 class="font-weight-bold text-center h1 my-5 sombra" style = "color: var(--CLEAR)">Explore nossas receitas!</h2>
-
-            </div>
-        </div>
-    </div>
+    @component('components.banner-pequeno', [
+        'imagem' => 'banner-pequeno-img2',
+        'texto' => 'Explore nossas receitas!'
+    ])
+    @endcomponent
 
     <div class="row py-5 px-0 mx-0 justify-content-center align-items-center" style = "background-color: var(--YELLOWISH)">
 
