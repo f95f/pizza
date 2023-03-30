@@ -36,13 +36,15 @@
             @component('components.social-row')
             @endcomponent
             
+
+
             @component('components.institucional')
             @endcomponent
             
             <hr>
                 <div class="row">
-                    <p>
-                        Tem interesse em fazer parte da nossa família?
+                    <p class = "text-center">
+                        Tem interesse em fazer parte da nossa história?
                         <a href="trabalhe-conosco">trabalhe conosco</a>!
                     </p>
                 </div>
