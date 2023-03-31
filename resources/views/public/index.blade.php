@@ -72,21 +72,21 @@
                     @component('components.pizza-tamanhos',[
                         'titulo' => 'Fatias',
                         'icone' => 'pizza_fatia',
-                        'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                        'desc' => 'Quer experimentar um sabor novo? Peça quantas fatias desejar!'
                     ])
                     @endcomponent
 
                     @component('components.pizza-tamanhos',[
                         'titulo' => 'Mini-pizzas',
                         'icone' => 'pizza_mini',
-                        'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                        'desc' => 'Pizzas pequenas - sacie sua fome de forma rápida e barata!'
                     ])
                     @endcomponent
                     
                     @component('components.pizza-tamanhos',[
-                        'titulo' => 'Tradicionais',
+                        'titulo' => 'Grande',
                         'icone' => 'pizza_trad',
-                        'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                        'desc' => 'O tamanho tradicional que você conhece, em diversos sabores!'
                     ])
                     @endcomponent
 
@@ -96,21 +96,21 @@
                     @component('components.pizza-tamanhos',[
                         'titulo' => 'Família',
                         'icone' => 'pizza_familia',
-                        'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                        'desc' => 'A escolha ideal para a sua galera!'
                     ])
                     @endcomponent
 
                     @component('components.pizza-tamanhos',[
-                        'titulo' => 'Tradicionais',
-                        'icone' => 'pizza_trad',
-                        'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                        'titulo' => 'Bordas Recheadas',
+                        'icone' => 'pizza_bordas',
+                        'desc' => 'Adicione um sabor extra à sua pizza!'
                     ])
                     @endcomponent
 
                     @component('components.pizza-tamanhos',[
-                        'titulo' => 'Família',
-                        'icone' => 'pizza_familia',
-                        'desc' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                        'titulo' => 'Bebidas',
+                        'icone' => 'bebidas',
+                        'desc' => 'Sucos, refrigerantes e bebidas - para todos os gostos!'
                     ])
                     @endcomponent
 

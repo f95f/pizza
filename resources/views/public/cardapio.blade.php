@@ -49,8 +49,8 @@
             'tipo' => 'Tradicional',
             'sabor' => 'Mussarela',
             'imagem' => 'mussarela',
-            'texto' => 'Descrição',
-            'valor' => 42.50
+            'texto' => 'Tradicional de queijo mussarela com tomates frescos, azeitonas e orégano.',
+            'valor' => '39,99'
         ])
         @endcomponent
 
@@ -58,8 +58,8 @@
             'tipo' => 'Tradicional',
             'sabor' => 'Calabresa',
             'imagem' => 'calabresa',
-            'texto' => 'Descrição',
-            'valor' => 42.50
+            'texto' => 'Fatias de calabresa cozidas com anéis de cebolas, azeitonas e orégano.',
+            'valor' => '42,99'
         ])
         @endcomponent
 
@@ -67,8 +67,8 @@
             'tipo' => 'Tradicional',
             'sabor' => 'Marguerita',
             'imagem' => 'marguerita',
-            'texto' => 'Descrição',
-            'valor' => 42.50
+            'texto' => 'Mussarelas especiais, parmesão, manjericão fresco e azeite.',
+            'valor' => '42,99'
         ])
         @endcomponent
 
@@ -80,8 +80,8 @@
             'tipo' => 'Doce',
             'imagem' => 'ovomaltine',
             'sabor' => 'Ovomaltine',
-            'texto' => 'Descrição',
-            'valor' => 42.50
+            'texto' => 'Pizza de chocolate com granulado e Ovomaltine.',
+            'valor' => '52,99'
         ])
         @endcomponent
 
@@ -89,8 +89,8 @@
             'tipo' => 'Tradicional',
             'sabor' => 'Mexicana',
             'imagem' => 'mexicana',
-            'texto' => 'Descrição',
-            'valor' => 42.50
+            'texto' => 'Mussarela, bacon, palmito, alhos frescos e anéis de cebola.',
+            'valor' => '42,99'
         ])
         @endcomponent
 
@@ -98,8 +98,8 @@
             'tipo' => 'Tradicional',
             'sabor' => 'Napolitana',
             'imagem' => 'napolitana',
-            'texto' => 'Descrição',
-            'valor' => 42.50 
+            'texto' => 'Mussarela, parmesão e fatias de tomates frescos.',
+            'valor' => '48,59'
         ])
         @endcomponent
 
@@ -111,17 +111,17 @@
             'tipo' => 'Tradicional',
             'sabor' => 'Portuguesa',
             'imagem' => 'portuguesa',
-            'texto' => 'Descrição',
-            'valor' => 42.50 
+            'texto' => 'Mussarela, ovos, presunto e anéis de cebolas frescas.',
+            'valor' => '42,59'
         ])
         @endcomponent
 
         @component('components.item-cardapio', [
             'tipo' => 'Doce',
-            'sabor' => 'Limão',
+            'sabor' => 'Torta de Limão',
             'imagem' => 'limão',
-            'texto' => 'Descrição',
-            'valor' => 42.50 
+            'texto' => 'Pizza doce com mousse de limão e cobertura de raspas de limão.',
+            'valor' => '55,99'
         ])
         @endcomponent
 
@@ -129,8 +129,8 @@
             'tipo' => 'Doce',
             'sabor' => 'Banana com Canela',
             'imagem' => 'banana',
-            'texto' => 'Descrição',
-            'valor' => 42.50 
+            'texto' => 'Pizza doce de banana com doce de leite e canela.',
+            'valor' => '55,99'
         ])
         @endcomponent
 
@@ -142,8 +142,8 @@
             'tipo' => 'Tradicional',
             'sabor' => 'Country',
             'imagem' => 'country',
-            'texto' => 'Descrição',
-            'valor' => 42.50 
+            'texto' => 'Frango desfiado, bacon, fatias de tomates, molho especial.',
+            'valor' => '49,99'
         ])
         @endcomponent
 
@@ -151,8 +151,38 @@
             'tipo' => 'Internacional',
             'sabor' => 'Mac & Cheese',
             'imagem' => 'mac_n_cheese',
-            'texto' => 'Descrição',
-            'valor' => 42.50 
+            'texto' => 'Pizza com mussarela especial, parmesão e massa fusili.',
+            'valor' => '49,99' 
+        ])
+        @endcomponent
+
+        @component('components.item-cardapio', [
+            'tipo' => 'Internacional',
+            'sabor' => 'Sweet Swine',
+            'imagem' => 'sweet-swine',
+            'texto' => 'Presunto em cubos e abacaxi.',
+            'valor' => '55,99'
+        ])
+        @endcomponent
+
+    </div>
+    <div class="row">
+
+        @component('components.item-cardapio', [
+            'tipo' => 'Internacional',
+            'sabor' => 'Texan Taco',
+            'imagem' => 'texan_taco',
+            'texto' => 'Queijos especiais, molho de taco, frango desfiado, alface, fatias de tomate, cebola.',
+            'valor' => '49,99' 
+        ])
+        @endcomponent
+        
+        @component('components.item-cardapio', [
+            'tipo' => 'Internacional',
+            'sabor' => 'Buffalo Chicken',
+            'imagem' => 'buffalo_chicken',
+            'texto' => 'Frango desfiado com molho de pimenta e molho especial.',
+            'valor' => '55,99' 
         ])
         @endcomponent
 
@@ -160,41 +190,64 @@
             'tipo' => 'Internacional',
             'sabor' => 'Tuscan Roma',
             'imagem' => 'tuscan_roma',
-            'texto' => 'Descrição',
-            'valor' => 42.50 
+            'texto' => 'Mussarela, tomates romanos, espinafre, molho especial',
+            'valor' => '55,99' 
         ])
         @endcomponent
 
-        <div class="row">
+    </div>
 
-            @component('components.item-cardapio', [
-                'tipo' => 'Internacional',
-                'sabor' => 'Texan Taco',
-                'imagem' => 'texan_taco',
-                'texto' => 'Descrição',
-                'valor' => 42.50 
-            ])
-            @endcomponent
-            
-            @component('components.item-cardapio', [
-                'tipo' => 'Internacional',
-                'sabor' => 'Buffalo Chicken',
-                'imagem' => 'buffalo_chicken',
-                'texto' => 'Descrição',
-                'valor' => 42.50 
-            ])
-            @endcomponent
+    <div class="row">
 
-            @component('components.item-cardapio', [
-                'tipo' => 'Internacional',
-                'sabor' => 'Tuscan Roma',
-                'imagem' => 'tuscan_roma',
-                'texto' => 'Descrição',
-                'valor' => 42.50 
-            ])
-            @endcomponent
+        @component('components.item-cardapio', [
+            'tipo' => 'Internacional',
+            'sabor' => 'BLT',
+            'imagem' => 'blt',
+            'texto' => 'Bacon, alface, tomate e maionese.',
+            'valor' => '52,99'
+        ])
+        @endcomponent
+        
+        @component('components.item-cardapio', [
+            'tipo' => 'Tradicional',
+            'sabor' => 'Frango com Catupiry',
+            'imagem' => 'frango_catupiri',
+            'texto' => 'Frango delicadamente desfiados e cobertura de Catupiry®.',
+            'valor' => '45,99' 
+        ])
+        @endcomponent
 
-        </div>
+        @component('components.item-cardapio', [
+            'tipo' => 'Tradicional',
+            'sabor' => 'Quatro Queijos',
+            'imagem' => 'quatro_queijos',
+            'texto' => 'Mussarela especial, provolone, parmesão e Catupiry®',
+            'valor' => '45,99' 
+        ])
+        @endcomponent
+
+    </div>
+
+    <div class="row">
+
+        @component('components.item-cardapio', [
+            'tipo' => 'Tradicional',
+            'sabor' => 'Pepperoni',
+            'imagem' => 'pepperoni',
+            'texto' => 'Mussarela especial com pepperoni fatiado.',
+            'valor' => '45,99'
+        ])
+        @endcomponent
+        
+        @component('components.item-cardapio', [
+            'tipo' => 'Tradicional',
+            'sabor' => 'Palmito',
+            'imagem' => 'palmito',
+            'texto' => 'Queijos especiais e palmitos frescos fatiados.',
+            'valor' => '45,99' 
+        ])
+        @endcomponent
+
     </div>
     <hr>
 </div>
