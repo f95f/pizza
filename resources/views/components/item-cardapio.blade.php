@@ -4,14 +4,15 @@
         
         <div class="view overlay">
 
-            <img class="card-img-top" src="{{asset('resources/media/sabores/'. $imagem. '.jpg')}}" alt="Card imagem {{$sabor}}">
+            <img class="card-img-top" src="{{asset('resources/media/sabores/'. $imagem. '.png')}}" alt="Card imagem {{$sabor}}">
 
         </div>
 
         <div class="card-body">
-        
+            
             <h4 class="card-title font-weight-bold">{{$sabor}}</h4>
-
+            
+            <hr>
             <ul class="list-unstyled list-inline rating mb-0">
                 <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"> </i></li>
                 <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i></li>
@@ -27,9 +28,11 @@
                 {{$texto}}
             </p>
 
+            <hr>
+
             <p class="card-text">
                 Grande, sem borda:    
-                <h4 class = "font-weight-bold">R$ {{$valor}}</h4>
+                <h4 class = "font-weight-bold" style = "font-size: 2em;">R$ {{$valor}}</h4>
             </p>
 
             <a class="btn py-3 px-1 mx-2 waves-effect mx-auto waves-light btn-pedir w-100" href = "pedir">

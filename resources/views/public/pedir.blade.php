@@ -1,5 +1,22 @@
 @extends('common.base-template')
 @section('content')
 
-<h1>AAAA</h1>
+<p>
+    sabor escolhido
 
+        quantidade
+        tamanho
+        borda
+        bebidas
+
+    entregar
+        Peça de forma rápida e fácil, crie uma conta!
+        solicitar endereço
+
+    buscar
+
+        mostrar endereço
+
+
+
+</p>

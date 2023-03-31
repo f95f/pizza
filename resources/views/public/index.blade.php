@@ -265,9 +265,9 @@
                     @endcomponent
 
                     @component('components.card-promo', [
-                        'tipo' => 'Internacional',
-                        'sabor' => 'Tuscan Roma',
-                        'imagem' => 'tuscan_roma'
+                        'tipo' => 'Tradicional',
+                        'sabor' => 'Palmito',
+                        'imagem' => 'palmito'
                     ])
                     @endcomponent
 

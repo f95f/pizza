@@ -3,7 +3,7 @@
     <div class="card card-cascade narrower p-2">
 
         <div class="view view-cascade overlay" style = "box-shadow: none">
-            <img src="{{asset('resources/media/sabores/'. $imagem. '.jpg')}}" class="card-img-top" alt="">
+            <img src="{{asset('resources/media/sabores/'. $imagem. '.png')}}" class="card-img-top" alt="">
         </div>
 
         <div class="card-body card-body-cascade text-center no-padding">

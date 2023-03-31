@@ -79,8 +79,8 @@
         @component('components.item-cardapio', [
             'tipo' => 'Doce',
             'imagem' => 'ovomaltine',
-            'sabor' => 'Ovomaltine',
-            'texto' => 'Pizza de chocolate com granulado e Ovomaltine.',
+            'sabor' => 'Ovomaltine®',
+            'texto' => 'Pizza de chocolate com granulado e Ovomaltine®.',
             'valor' => '52,99'
         ])
         @endcomponent
@@ -159,8 +159,8 @@
         @component('components.item-cardapio', [
             'tipo' => 'Internacional',
             'sabor' => 'Sweet Swine',
-            'imagem' => 'sweet-swine',
-            'texto' => 'Presunto em cubos e abacaxi.',
+            'imagem' => 'sweet_swine',
+            'texto' => 'Mussarela especial, presunto cortado em cubos e pedaços de abacaxi.',
             'valor' => '55,99'
         ])
         @endcomponent
