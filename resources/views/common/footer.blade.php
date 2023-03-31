@@ -5,7 +5,9 @@
             <div class="row py-4 d-flex mb-1 align-items-center">
 
                 <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+
                     <h6 class="mb-0">Nos encontre nas redes sociais!</h6>
+
                 </div>
 
                 <div class="col-md-6 col-lg-7 text-center text-md-right footer-icons">
@@ -34,13 +36,15 @@
                     <a class="li-ic">
                         <i class="fab fa-linkedin-in white-text mr-4"> </i>
                     </a>
+
                 </div>
 
             </div>
+
         </div>
     </div>
 
-    <div class="container text-center text-md-left mt-5" id = "sitemap"> <!-- rodapé - sitemap -->
+    <div class="container text-center text-md-left mt-5" id = "sitemap">
 
         <div class="row mt-3">
 

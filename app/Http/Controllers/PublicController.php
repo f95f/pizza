@@ -59,7 +59,6 @@ class PublicController extends Controller{
         $model = new LoginModel();
         $v = $model -> signUserIn($data); // $v: vetor processado
         
-        #print_r($v);
         return view('public.sign_success', ['info' => $v]);
 
     }
