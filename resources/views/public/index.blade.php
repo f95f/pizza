@@ -126,7 +126,7 @@
 
     @component('components.faixa',[
         'fundo' => '--ORANGISH',
-        'texto' => 'Explores os melhores sabores!'
+        'texto' => 'Explore os melhores sabores!'
     ])
     @endcomponent
 
