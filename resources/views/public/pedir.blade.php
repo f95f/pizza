@@ -1,12 +1,12 @@
 @extends('common.base-template')
 @section('content')
 
-<div class="container-flex mb-0 banner-pequeno banner-pequeno-img2" style= "padding-top: 200px">
+<div class="container-flex pb-5 banner-pequeno banner-pequeno-img2" style= "padding-top: 200px">
 
-    <div class="mask rgba-black-strong py-5">
+    <div class="mask rgba-black-strong py-5 my-5">
         <div class="container">
             
-            <div class = "row">
+            <div class = "row mb-5">
                 <div class = "col mx-auto">
                 
                     <h4 class = "font-weight-bold">Olá, visitante!</h4>
@@ -15,6 +15,7 @@
                 </div>
             </div>
             <hr>
+
             <div class="row my-5 text-white">
 
                 <div class="col-md-3 text-center">
@@ -44,7 +45,8 @@
 
 
             </div>
-            <hr>   
+            <hr>  
+
             <div class = "row">
                 <div class = "col mx-auto">
                 
@@ -55,7 +57,7 @@
                 
                 </div>
             </div>
+            
         </div>
     </div>
-    <hr class = "mt-5 mb-0"> 
 </div>

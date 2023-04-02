@@ -12,7 +12,7 @@
 
     <div class="col-md-8 mx-auto mb-5">
 
-        <form id="formCandidado" name="formCandidato" action="#" method="POST">
+        <form class = "formEscuro" id="formCandidado" name="formCandidato" action="#" method="POST">
 
             <div class="row">
 

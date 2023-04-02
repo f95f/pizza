@@ -1,4 +1,4 @@
-<form id="formContato" name="formContato" action="#" method="POST">
+<form class = "formEscuro" id="formContato" name="formContato" action="#" method="POST">
 
     <div class="row">
 

@@ -10,7 +10,7 @@
 
             <h4 class="card-title">{{$sabor}}</h4>
 
-            <h6 class="mb-3 grey-text">{{$tipo}}</h6>
+            <h3 class="mb-3 grey-text">{{$tipo}}</h6>
 
             <a class="btn py-4 waves-effect waves-light btn-pedir" href = "pedir">
                 Pedir!

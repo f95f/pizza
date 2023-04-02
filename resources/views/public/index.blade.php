@@ -16,7 +16,7 @@
 
         <section class="row text-center wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-name: fadeIn; animation-iteration-count: 1; animation-delay: 0.3s;">
 
-            <p class="text-center w-100 my-5 mx-auto w-responsive lead text-shadow-2" style = "color: var(--CLEAR)">
+            <p class="text-center w-100 my-5 mx-auto w-responsive lead text-shadow-2">
 
                 Trabalhamos com a tradição que remete ao nosso nome, junto à modernidade presente em nossa história, para entregar os seus sabores favoritos com a melhor qualidade e proporcionando sempre a melhor experiência!
 
@@ -281,7 +281,7 @@
         </div>
         
         <div class="row my-4">
-            <div class="col mx-auto text-center">
+            <div class="col mx-auto text-center mb-5">
 
                 <h4>
                     <a class = "font-weight-bold" href = "cardapio">Confira o cardápio completo!</a>

@@ -22,7 +22,9 @@
                 <li class="list-inline-item"><p class="text-muted">4.5 (413)</p></li>
             </ul>
 
-            <p class="mb-2">{{$tipo}}</p>
+            <a href="">
+                <h3 class="mb-2" style = "text-decoration: underline ">{{$tipo}}</h3>
+            </a>
             
             <p class="card-text">
                 {{$texto}}

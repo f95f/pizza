@@ -1,4 +1,4 @@
-<div class="col-md-6 mx-auto py-5">
+<div class="col-md-6 mx-auto my-5 py-5">
 
     <form method = "" class="text-center p-5" action="#!">
         

@@ -16,7 +16,7 @@
             <div class="row mb-4">
                 <h4 class = "mb-4 ">Nossa História</h4>
                 <p class = "text-justify">
-                    Somos uma pizzaria tradicional, mas moderna e apaixonada combina o melhor dos dois mundos - o sabor clássico da autêntica pizza italiana e a criatividade e inovação da fabricação de pizza moderna. Essa marca se orgulha de seu compromisso em usar apenas os ingredientes mais frescos e finos, provenientes de fazendas e produtores locais. Cada pizza é criada com cuidado e atenção aos detalhes, refletindo uma paixão pela tradição e um amor pelo sabor. Com uma atmosfera acolhedora e convidativa e uma equipe simpática, esta pizzaria oferece uma experiência que combina a nostalgia do charme do velho mundo com a empolgação das técnicas culinárias modernas.
+                    Somos uma pizzaria tradicional, mas moderna e apaixonada combina o melhor dos dois mundos - o sabor clássico da autêntica pizza italiana e a criatividade e inovação da fabricação de pizzas modernas. Nós nos orgulhamos de nosso compromisso em usar apenas os ingredientes mais frescos e finos, provenientes de fazendas e produtores locais. Cada pizza é criada com cuidado e atenção aos detalhes, refletindo uma paixão pela tradição e um amor pelo sabor. 
                 </p>
             </div>
             
