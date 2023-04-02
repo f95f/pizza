@@ -1,6 +1,6 @@
-<div class="col-md-6 mx-auto py-5">
+<div class="col-md-6 mx-auto py-5" >
 
-    <form  method = "post" class="text-center p-5" action="#!">
+    <form  method = "" class="text-center p-5" action="">
         
         <h4>Entrar</h4>
         

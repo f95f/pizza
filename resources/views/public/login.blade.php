@@ -1,15 +1,17 @@
 @extends('common.base-template')
 @section('content')
 
-<div class="container-flex fundo-form">
+<div class="container-flex banner-pequeno banner-pequeno-img3">
 
-    <div class="container" style = "padding-top: 150px">
-        
-        <div class = "row">
+    <div class="mask rgba-black-strong">
+
+        <div class="container" style = "padding-top: 150px">
             
-            @extends('forms.login_cliente')
-            
+            <div class = "row">
+                
+                @include('forms.login_cliente')
+                
+            </div>
         </div>
     </div>
-
 </div>

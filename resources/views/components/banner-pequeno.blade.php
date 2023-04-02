@@ -1,5 +1,5 @@
 
-<div class = "banner-pequeno" id = "{{$imagem}}">
+<div class = "banner-pequeno {{$imagem}}">
 
     <div class="mask rgba-brown-strong">
 

@@ -3,7 +3,7 @@
 
     <h4 class="font-weight-bold my-4">{{$titulo}}</h4>
     <div class="mx-auto my-4 tamanhos">  
-        <img src="{{asset('resources/media/icons/'. $icone .'.svg')}}" alt="Fatias de pizza">
+        <img src="{{asset('resources/media/icons/'. $icone .'.svg')}}" alt="{{$alt}}">
     </div>
     <p style = "color: var(--WHITE)">{{$desc}}</p>
 

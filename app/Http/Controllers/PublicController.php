@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\LoginModel;
 
 class PublicController extends Controller{
 
@@ -50,17 +49,6 @@ class PublicController extends Controller{
     public function autenticarFuncionario(){
         
         return view('private.autenticar', ['pageTitle' => 'Identifique-se!']);
-    }
-
-    public function save(Request $request){
-        
-        $data = $request -> input();
-
-        $model = new LoginModel();
-        $v = $model -> signUserIn($data); // $v: vetor processado
-        
-        return view('public.sign_success', ['info' => $v]);
-
     }
 
 }
