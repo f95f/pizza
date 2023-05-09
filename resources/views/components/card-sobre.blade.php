@@ -1,4 +1,4 @@
-<div class="col-md-4 mb-5">
+<div class="col-md-4 mb-5 px-2">
 
     <i class="fas fa-{{$icon}} fa-4x fa-chart-area white-text z-index"></i>
     <h4 class="font-weight-bold my-4">{{$titulo}}</h4>

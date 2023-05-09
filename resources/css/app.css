@@ -7,8 +7,8 @@
     --GREENISH: #3B4D25;
     --ORANGISH: #C14325; 
     --YELLOWISH: #F39220; 
-    --CLEAR: #e0d0cd;
-    --WHITE: #F2F2F4; 
+    --CLEAR: #cfbfbc;
+    --WHITE: #F1F1F2; 
 }
 
 body{
@@ -16,16 +16,12 @@ body{
 }
 
 .navbar{
+    background-color: #1A100E00;
+}
+
+.top-nav-collapse{
     background-color: var(--DARK);
 }
-
-.navbar.scrolling-navbar {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.navbar-toggler-icon{}
-
 .nav-item{
     margin: 10px 15px; 
     font-family: 'PT Sans Narrow', sans-serif !important;
@@ -34,18 +30,13 @@ body{
     text-transform: uppercase;
     font-weight: normal;
 }
-
 .nav-link{
     color: var(--WHITE);
 }
 
 .nav-link:hover{
-    color: var(--YELLOWISH);
-}
-
-.banner{
-    margin-top: 100px;
-}
+    color: var(--YELLOWISH) !important;
+}   
 
 .mdb-bg-video{
     position: relative;

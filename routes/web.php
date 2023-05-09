@@ -14,3 +14,9 @@ Route::get('/trabalhe-conosco', [PublicController::class, 'trabalheConosco']);
 Route::get('/autenticar', [PublicController::class, 'autenticarFuncionario']);
 
 
+/**
+ * criar pizzaController, exibição e manipulação de pizzas;
+ * criar pedidoController, para criação, consulta e exclusão de pedidos;
+ * criar clienteController, para administração de usuários clientes;
+ * criar userController, para administra~çaop de usuários funcionários.
+ */

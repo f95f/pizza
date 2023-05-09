@@ -4,7 +4,7 @@
 @component('components.banner');
 @endcomponent
 
-<div class="container-fluid px-0 ">
+<div class="container-fluid px-0">
 
     @component('components.faixa',[
         'fundo' => '--ORANGISH',
@@ -12,15 +12,19 @@
     ])
     @endcomponent
     
-    <div class="container pl-4 py-5">
+    <div class="container py-5">
 
-        <section class="row text-center wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-name: fadeIn; animation-iteration-count: 1; animation-delay: 0.3s;">
+        <section class="text-center wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-name: fadeIn; animation-iteration-count: 1; animation-delay: 0.3s;">
+           
+            <div class="row">
+            
+                <p class="text-center w-100 my-5 px-2 mx-auto w-responsive lead text-shadow-2">
 
-            <p class="text-center w-100 my-5 mx-auto w-responsive lead text-shadow-2">
+                    Trabalhamos com a tradição que remete ao nosso nome, junto à modernidade presente em nossa história, para entregar os seus sabores favoritos com a melhor qualidade e proporcionando sempre a melhor experiência!
 
-                Trabalhamos com a tradição que remete ao nosso nome, junto à modernidade presente em nossa história, para entregar os seus sabores favoritos com a melhor qualidade e proporcionando sempre a melhor experiência!
-
-            </p>
+                </p>
+            
+            </div>
 
             <div class="row mt-5">
 
