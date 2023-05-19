@@ -12,9 +12,9 @@ class CardapioController extends Controller{
         $model = new CardapioModel();
         $teste = $model -> getPizzas();
 
-        dd($teste);
+        //dd($teste);
 
-        return view('public.cardapio', ['pageTitle' => 'Cardápio']); //retornar view cardápio com os dados obtidos do db como argumentos?
+        return view('public.cardapio', ['pageTitle' => 'Cardápio'], ['teste' => $teste]); //retornar view cardápio com os dados obtidos do db como argumentos?
     
     }
 }

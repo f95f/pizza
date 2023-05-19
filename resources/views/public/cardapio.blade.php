@@ -44,7 +44,17 @@
 <div class="container">
 
     <div class="row justify-content-center align-items-center ">
+       {{--dd($teste[0] -> sabor)--}}
+        @component('components.item-cardapio', [
+            'tipo' => $teste[2] -> tipo,
+            'sabor' => $teste[2] -> sabor,
+            'imagem' => $teste[2] -> imagem,
+            'texto' => $teste[2] -> descricao,
+            'valor' => $teste[2] -> valor
+        ])
+        @endcomponent
 
+    <!--    
         @component('components.item-cardapio', [
             'tipo' => 'Tradicional',
             'sabor' => 'Mussarela',
@@ -247,7 +257,7 @@
             'valor' => '45,99' 
         ])
         @endcomponent
-
+        -->
     </div>
     <hr>
 </div>
