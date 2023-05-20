@@ -87,7 +87,7 @@
                     <a href="trabalhe-conosco">Trabalhe Conosco</a>
                 </p>
                 <p>
-                    <a href="autenticar">Área Restrita</a>
+                    <a href="cadastrar-produto">Área Restrita</a>
                 </p>
 
             </div>

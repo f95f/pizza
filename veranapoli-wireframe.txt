@@ -1,0 +1,35 @@
+adicionar pedidos
+consultar pedidos
+alterar pedidos -> editar, exclkuir
+
+cadastrar produtos
+consultar produtos
+alterar produtos -> alterar, excluir
+	- pizzas
+	- bebidsa
+	- ingredientes
+
+cadastrar clientes
+pesquisar clientes
+alterar clientes -> alterar, excluir
+
+cadastrar funcionários
+pesquisar funcionários
+alterar funcionários -> alterar, excluir
+
+adicionar 
+		->  Produtos | Pedidos | Funcionarios | Clientes
+
+consultar 
+		->  Produtos | Pedidos | Funcionarios | Clientes | Estoque? | Gerar Relatório
+
+alterar 
+		->  Produtos | Pedidos | Funcionarios | Clientes | Estoque?
+
+
+	Produtos	| 	Pedidos	|	Funcionários	|	Clientes	|	Estoque?	|	Vendas?	
+	|			|			|				|			|			|	
+	Cadastrar		Cadastrar		Cadastrar			Cadastrar		|			|
+	Consultar		Consultar		Consultar			Consultar		Consultar		Gerar Relatório
+	Alterar/Excluir	Alterar/Excluir	Alterar/Excluir		Alterar/Excluir	Alterar	
+	

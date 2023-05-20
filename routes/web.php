@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\CardapioController;
 use App\Http\Controllers\PublicController;
+use App\Http\Controllers\PizzaController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/index', [PublicController::class, 'index']);
@@ -13,11 +14,13 @@ Route::get('/contato', [PublicController::class, 'contato']);
 //Route::get('/cardapio', [PublicController::class, 'cardapio']);
 Route::get('/trabalhe-conosco', [PublicController::class, 'trabalheConosco']);
 Route::get('/autenticar', [PublicController::class, 'autenticarFuncionario']);
+Route::get('/cadastrar-produto', [PizzaController::class, 'index']);
 
 Route::get('/cardapio', [CardapioController::class, 'index']);
+Route::post('/salvar-produto', [PizzaController::class, 'salvarProduto']);
 
 /**
- * criar pizzaController, exibição e manipulação de pizzas;
+ * criar pizzaController, exibição e manipulação de pizzas; -------------------------- DONE
  * criar pedidoController, para criação, consulta e exclusão de pedidos;
  * criar clienteController, para administração de usuários clientes;
  * criar userController, para administra~çaop de usuários funcionários.
