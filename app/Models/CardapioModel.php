@@ -7,6 +7,9 @@ use Illuminate\Support\Facades\DB;
 
 class CardapioModel extends Model{
     
+    //https://laravel.com/docs/9.x/queries
+
+
     /** 
      * Método para gerar o conteúdo da página Cardápio. 
      * Retorna as informações de todas as pizzas disponíveis
