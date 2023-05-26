@@ -248,12 +248,10 @@ footer p a:hover{
 /*-- Componentes das páginas internas --*/
 
 .internal{
-    background-color: var(--DARKER);
+    background-color: var(--CLEAR);
 }
 
-.navbar-intern{
-    background-color: var(--DARK) !important;
-}
+
 
 input, textarea{
     border-bottom: 2px solid var(--ORANGISH) !important;

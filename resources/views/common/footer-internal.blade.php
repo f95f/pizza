@@ -1,8 +1,8 @@
-<footer class="page-footer font-small mt-5">
+<footer class="page-footer font-small">
 
     <div style="background-color: var(--DARK);">
         <div class="container"> 
-            <div class="row py-2 d-flex mb-1 align-items-center">
+            <div class="row py-2 d-flex align-items-center">
 
                 <span class="navbar-brand mx-auto">
                     <img src="{{asset('resources/media/logo_branco.png')}}" alt="Logo - Vera Napoli" height = "30">

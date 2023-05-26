@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class PizzaController extends Controller{
     
-    public function index(){
+    public function cadastrarProduto(){
         
         return view('private.cadastrar-pizza', ['pageTitle' => 'Cadastrar Produto']);
 
@@ -41,7 +41,5 @@ class PizzaController extends Controller{
         $pizza -> save(); //------------------------- outro jeito 
         
     }  
-
-
 
 }

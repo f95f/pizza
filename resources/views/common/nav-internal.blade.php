@@ -1,6 +1,7 @@
 <header>
     
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-intern">
+        
         <div class="container">
 
             <a class="navbar-brand" href="index">
@@ -8,10 +9,11 @@
                 <span class="sr-only">(current)</span>
             </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
+            <div class="nav-item">
+                <a class="nav-link waves-effect waves-dark" href="login">Sair</a>
+            </div>
+            
+{{-- 
             <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
 
                 <ul class="navbar-nav ml-auto">
@@ -36,13 +38,13 @@
                         <a class="nav-link waves-effect waves-dark" href="contato">Gerenciamento</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link waves-effect waves-dark" href="login">Logout</a>
-                    </li>
+
                     
                 </ul>
 
             </div>
+--}}
+
         </div>
     </nav>
     

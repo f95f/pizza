@@ -51,5 +51,10 @@ class PublicController extends Controller{
         return view('private.autenticar', ['pageTitle' => 'Identifique-se!']);
     }
 
+    public function painel(){
+
+        return view('private.painel', ['pageTitle' => 'Painel']);
+
+    }
 }
     
