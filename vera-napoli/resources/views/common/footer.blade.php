@@ -49,7 +49,7 @@
         <div class="row mt-3">
 
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto">
-                <a href="index">
+                <a href="/">
                     <img src="{{asset('media/logo_grande_branco.png')}}" alt="Logo Grande - Vera Napoli" height = "220">
                 </a> 
             </div>

@@ -10,6 +10,15 @@ Route::get('/', function () {
 Route::get('pedir', function () {
      return view('public.pedir', ["pageTitle" => "Peça Agora!"]);
 });
+Route::get('sobre', function () {
+     return view('public.sobre', ["pageTitle" => "Sobre"]);
+});
+Route::get('contato', function () {
+     return view('public.contato', ["pageTitle" => "Contato"]);
+});
+Route::get('trabalhe-conosco', function () {
+     return view('public.trabalhe-conosco', ["pageTitle" => "Trabalhe Conosco"]);
+});
 
 Route::get('/cardapio', [CardapioController::class, 'index']);
 
