@@ -1,0 +1,72 @@
+{
+    "Confirm Password" : "Confirmar Senha",
+    "For your security, please confirm your password to continue." : "Para a sua segurança, confirme a sua senha.",
+    "Confirm": "Confirmar",
+    "Password": "Senha",
+    "Cancel": "Cancelar",
+    "Whoops! Something went wrong.": "Algo deu errado.",
+    "Dashboard": "Painel",
+    "Manage Account": "Gerenciar Conta",
+    "Profile": "Perfil",
+    "Log Out": "Sair",
+    "Delete Account": "Excluir Conta",
+    "Permanently delete your account.": "Apaga permanentemente a sua conta.",
+    "Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain.":
+    "Todos os seus dados serão apagados. Essa operação é irreversível.",
+    "Are you sure you want to delete your account? Once your account is deleted, all of its resources and data will be permanently deleted. Please enter your password to confirm you would like to permanently delete your account.":
+    "Tem certeza de que deseja excluir sua conta? Todos os seus dados serão apagados. Essa operação é irreversível.",
+    "Browser Sessions": "Ver sessões",
+    "Manage and log out your active sessions on other browsers and devices.":
+    "Gerencie suas sessões ativas em outros navegadores e dispositivos.",
+    "If necessary, you may log out of all of your other browser sessions across all of your devices. Some of your recent sessions are listed below; however, this list may not be exhaustive. If you feel your account has been compromised, you should also update your password.":
+    "Você pode sair de todas as sessões em todos os seus dispositivos - algumas das suas sessões recentes estão listadas abaixo. Se você acha que a sua conta foi comprometida, considere trocar sua senha",
+    "Unknown": "Desconhecido",
+    "This device": "Este dispositivo",
+    "Last active": "Última vez ativo",
+    "Log Out Other Browser Sessions": "Sair de todas as sessões",
+     "Done.": "Feito!",
+     "Please enter your password to confirm you would like to log out of your other browser sessions across all of your devices.": "Por favor se identifique.",
+     "Two Factor Authentication":
+     "Autenticação em Dois Fatores",
+     "Add additional security to your account using two factor authentication.":
+     "Aumente a segurança da sua conta ao usar a autenticação em dois fatores.",
+     "Finish enabling two factor authentication.":
+     "Conclua a autenticação em dois fatores.",
+     "You have enabled two factor authentication.":
+     "Você ativou a autenticação em dois fatores.",
+     "You have not enabled two factor authentication.":
+     "Você não ativou a autenticação em dois fatores.",
+     "When two factor authentication is enabled, you will be prompted for a secure, random token during authentication. You may retrieve this token from your phone's Google Authenticator application.":
+     "Quando a autenticação em dois fatores estiver ativada, você precisará informar um token ao fazer login. Você pode obter este token em seu telefone por meio do aplicativo Google Authenticator.",
+    "To finish enabling two factor authentication, scan the following QR code using your phone's authenticator application or enter the setup key and provide the generated OTP code.":
+    "Para concluir a ativação da autenticação em dois fatores, escaneie o QR code a seguir por meio do aplicativo Google Authenticator, ouinsira a chave de configuração e informe a senha de uso único.",
+    "Two factor authentication is now enabled. Scan the following QR code using your phone's authenticator application or enter the setup key.":
+    "A autenticação em dois fatores está ativada. Escaneie o QR code abaixo por meio do aplicativo Google Authenticator ou informe a chave de configuração.",
+    "Setup Key": "Chave de Configuração",
+    "Code": "Código",
+    "Store these recovery codes in a secure password manager. They can be used to recover access to your account if your two factor authentication device is lost.":
+    "Guarde estes códigos de recuperação em um local seguro. Eles serão solicitados caso você perca o acesso ao seu dispositivo de autenticação em dois fatores.",
+    "Enable": "Ativar",
+    "Regenerate Recovery Codes": "Gerar códigos de recuperação",
+    "Show Recovery Codes": "Mostrar códigos de recuperação",
+    "Disable": "Desativar",
+    "Update Password": "Trocar Senha",
+    "Ensure your account is using a long, random password to stay secure.":
+    "Para a segurança da sua conta, informe uma senha segura.",
+    "Current Password": "Senha Atual",
+    "New Password": "Nova Senha",
+    "Saved.": "Senha salva.",
+    "Save": "Salvar",
+    "Profile Information": "Informações do Perfil",
+    "Update your account's profile information and email address.":
+    "Atualize as informações do seu perfil e seu endereço de email.",
+    "Photo": "Foto",
+    "Select A New Photo": "Escolha uma foto nova",
+    "Remove Photo": "Remover Foto",
+    "Name": "Nome",
+    "Your email address is unverified.": "O seu endereço de email não está verificado.",
+    "Click here to re-send the verification email.": "Clique aqui para reenviar o link de verificação.",
+    "A new verification link has been sent to your email address.":
+    "Um novo link de verificação foi enviado para o seu endereço de email."
+
+}
