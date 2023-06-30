@@ -3,6 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CardapioController;
 use App\Http\Controllers\PizzaController;
+use App\Http\Controllers\IngredienteController;
+use App\Http\Controllers\PedidoController;
+use App\Http\Controllers\FuncionarioController;
 
 Route::get('/', function () {
      return view('public.index', ["pageTitle" => "Página Inicial"]);
@@ -21,6 +24,14 @@ Route::get('trabalhe-conosco', function () {
 });
 
 Route::get('/cardapio', [CardapioController::class, 'index']);
+
+Route::get('/ingredientes', [IngredienteController::class, 'index']) -> middleware('auth');
+Route::get('/ingredientes/novo', [IngredienteController::class, 'create']) -> middleware('auth');
+Route::post('/ingrediente/guardar', [IngredienteController::class, 'store']) -> middleware('auth');
+
+Route::get('/pizzas/novo', [PizzaController::class, 'create']) -> middleware('auth');
+Route::get('/pedidos/novo', [pedidoController::class, 'create']) -> middleware('auth');
+Route::get('/funcionarios/novo', [FuncionarioController::class, 'create']) -> middleware('auth');
 
 Route::middleware([
     'auth:sanctum',

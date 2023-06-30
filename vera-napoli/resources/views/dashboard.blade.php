@@ -5,22 +5,24 @@
 
     <div class="container-fluid">
         <div class="container">
-
+            @if(session('status'))
+            <p>{{session('status')}}</p>
+            @endif
             <div class="row my-5">
                 <h2>Pedidos</h2>
                 <div class="col menu-card">
                     
-                    <a href="pedido.create">Novo Pedido</a>
+                    <a href="/pedidos/novo">Novo Pedido</a>
 
                 </div>
                 <div class="col menu-card">
                     
-                    <a href="pedido.search">Ver Pedidos</a>
+                    <a href="/pedidos">Ver Pedidos</a>
 
                 </div>
                 <div class="col menu-card">
                     
-                    <a href="pedido.edit">Editar Pedido</a>
+                    <a href="/pedidos/alterar">Editar Pedido</a>
 
                 </div>
             </div>
@@ -29,17 +31,17 @@
                 <h2>Pizzas</h2>
                 <div class="col menu-card">
                     
-                    <a href="pedido.edit">Novo Sabor</a>
+                    <a href="/pizzas/novo">Novo Sabor</a>
 
                 </div>
                 <div class="col menu-card">
                     
-                    <a href="pedido.edit">Consultar Sabor</a>
+                    <a href="/pizzas">Consultar Sabor</a>
 
                 </div>
                 <div class="col menu-card">
                     
-                    <a href="pedido.edit">Editar Sabor</a>
+                    <a href="/pizzas/alterar">Editar Sabor</a>
 
                 </div>
             </div>
@@ -48,17 +50,17 @@
                 <h2>Ingredientes</h2>
                 <div class="col menu-card">
                     
-                    <a href="pedido.edit">Novo Ingrediente</a>
+                    <a href="/ingredientes/novo">Novo Ingrediente</a>
 
                 </div>
                 <div class="col menu-card">
                     
-                    <a href="pedido.edit">Consultar Ingrediente</a>
+                    <a href="/ingredientes">Consultar Ingrediente</a>
 
                 </div>
                 <div class="col menu-card">
                     
-                    <a href="pedido.edit">Editar Ingrediente</a>
+                    <a href="/ingredientes/alterar">Editar Ingrediente</a>
 
                 </div>
             </div>
@@ -67,17 +69,17 @@
                 <h2>Funcionários</h2>
                 <div class="col menu-card">
                     
-                    <a href="pedido.edit">Novo Funcionário</a>
+                    <a href="/funcionarios/novo">Novo Funcionário</a>
 
                 </div>
                 <div class="col menu-card">
                     
-                    <a href="pedido.edit">Consultar Funcionário</a>
+                    <a href="/funcionarios">Consultar Funcionário</a>
 
                 </div>
                 <div class="col menu-card">
                     
-                    <a href="pedido.edit">Editar Funcionário</a>
+                    <a href="/funcionarios/alterar">Editar Funcionário</a>
 
                 </div>
             </div>
